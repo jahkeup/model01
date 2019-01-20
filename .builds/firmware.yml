@@ -5,7 +5,7 @@ sources:
   - https://git.sr.ht/~neio/model01
 tasks:
   - build: |
-      cd *-firmware
+      cd model01
       # Allow network access with PIO, yes, this is impure. See TODO
       # in platformio.ini.
       nix-build --option sandbox false ./ci.nix
