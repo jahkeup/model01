@@ -1,0 +1,38 @@
+{
+  "build": {
+    "core": "arduino",
+    "f_cpu": "16000000L",
+    "hwids": [
+      [
+        "0x1209",
+        "0x2301"
+      ]
+    ],
+    "mcu": "atmega32u4",
+    "usb_product": "Model 01",
+    "usb_manufacturer": "Keyboardio",
+    "variant": "model01",
+    "extra_flags": "-I./.piolibdeps/KaleidoscopeScanner -I ./lib/KeyboardIOPins/src '-DKALEIDOSCOPE_HARDWARE_H=\"Kaleidoscope-Hardware-Model01.h\"' -DARDUINO_AVR_MODEL01 -ftrack-macro-expansion=0 -fno-diagnostics-show-caret"
+  },
+  "frameworks": ["arduino"],
+  "name": "model01",
+  "upload": {
+    "disable_flushing": true,
+    "maximum_ram_size": 2560,
+    "maximum_size": 28672,
+    "protocol": "avr109",
+    "require_upload_port": true,
+    "speed": 57600,
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true
+  },
+  "fuses": {
+    "efuse": "0xcb",
+    "hfuse": "0xd8",
+    "lfuse": "0xff",
+    "lock": "0x3F"
+  },
+
+  "url": "http://keyboard.io",
+  "vendor": "KeyboardIO"
+}

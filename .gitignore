@@ -1,0 +1,6 @@
+*~
+.#*
+/output/
+.pioenvs/
+.piolibdeps/
+/result*
