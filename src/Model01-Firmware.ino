@@ -35,6 +35,9 @@
 // Support for "Numpad" mode, which is mostly just the Numpad specific LED mode
 #include "Kaleidoscope-NumPad.h"
 
+// Change the colors based on the modifier pressed.
+#include "Kaleidoscope-LED-ActiveModColor.h"
+
 // Support for the "Boot greeting" effect, which pulses the 'LED' button for 10s
 // when the keyboard is connected to a computer (or that computer is powered on)
 #include "Kaleidoscope-LEDEffect-BootGreeting.h"
@@ -407,6 +410,9 @@ KALEIDOSCOPE_INIT_PLUGINS(
 
   // LEDControl provides support for other LED modes
   LEDControl,
+
+  // Color based on the active modifiers.
+  ActiveModColorEffect,
 
   // We start with the LED effect that turns off all the LEDs.
   LEDOff,
