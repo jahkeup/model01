@@ -411,6 +411,19 @@ void setup() {
   // one wants to use these layers, just set the default layer to one in EEPROM,
   // by using the `settings.defaultLayer` Focus command.
   EEPROMKeymap.setup(5, EEPROMKeymap.Mode::EXTEND);
+
+  // Configure the MouseKeys plugin, otherwise the defaults are not
+  // suitable for me to use the keyboardio model01 as a mouse when I
+  // need to move the mouse for small amounts of time.
+  //
+  // speed is the initial speed at which the mouse will start moving (in Pixels).
+  MouseKeys.speed = 5;
+  // speedDelay is the delay between actual movements (ie: time between incremental movement).
+  MouseKeys.speedDelay = 5;
+  // accelSpeed is the amount at which acceleration is incremented
+  // every accelDelay milliseconds.
+  MouseKeys.accelSpeed = 2;
+  MouseKeys.accelDelay = 19;
 }
 
 /** loop is the second of the standard Arduino sketch functions.
