@@ -1,0 +1,5227 @@
+{
+  "contrib-piohome": [
+    {
+      "sha1": "e558dc707a297ec5ed042c5a2bd54a1a5a13ac96",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/contrib-piohome-3.0.1.tar.gz",
+      "version": "3.0.1"
+    },
+    {
+      "sha1": "97e862309981a1a380e94bce4a27a4eb3808d907",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/contrib-piohome-3.1.0-rc.1.tar.gz",
+      "version": "3.1.0-rc.1"
+    },
+    {
+      "sha1": "17c2a8e8c9c426660f85d5132ac31da752518f49",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/contrib-piohome-2.3.3.tar.gz",
+      "version": "2.3.3"
+    }
+  ],
+  "contrib-pysite": [
+    {
+      "sha1": "30bee9cc121866c81514614812c8a56c0a6c6efa",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_armv6l-2.36.191017.tar.gz",
+      "version": "2.36.191017"
+    },
+    {
+      "sha1": "2db810443923194a3c119d4d0a5bb3bf675c3535",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_aarch64-2.36.191018.tar.gz",
+      "version": "2.36.191018"
+    },
+    {
+      "sha1": "47ac961001429de158c8bad2480ce735422263d3",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_x86_64-2.36.191017.tar.gz",
+      "version": "2.36.191017"
+    },
+    {
+      "sha1": "b012eb854ccc885fbfa41143a161aceaeea9ae5d",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_i686-2.36.191017.tar.gz",
+      "version": "2.36.191017"
+    },
+    {
+      "sha1": "5f3cbf91d5c4374c8504d18fe9ebf5ade1645f85",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-darwin_x86_64-2.27.191017.tar.gz",
+      "version": "2.27.191017"
+    },
+    {
+      "sha1": "72c2ceb8a14cc096d5c9011b74bf40c0a08e852a",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_x86-2.27.191017.tar.gz",
+      "version": "2.27.191017"
+    },
+    {
+      "sha1": "8b91f0d7d075ca1b93f1d3f48abc2ce71b2e6500",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_x86-2.37.191017.tar.gz",
+      "version": "2.37.191017"
+    },
+    {
+      "sha1": "4845945a6dde7c8badb85252b665be29a2767473",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-darwin_x86_64-2.37.191017.tar.gz",
+      "version": "2.37.191017"
+    },
+    {
+      "sha1": "3657b93b88d121fea32d2e9262e032d6530ab7c1",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_amd64-2.38.191019.tar.gz",
+      "version": "2.38.191019"
+    },
+    {
+      "sha1": "b3b9fd6e4e63b17eb3f7d0b717030774565bcd24",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_i686-2.35.191017.tar.gz",
+      "version": "2.35.191017"
+    },
+    {
+      "sha1": "1deb9e60e77e1d5299ae267256a75a64be329047",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-freebsd_amd64-2.38.191017.tar.gz",
+      "version": "2.38.191017"
+    },
+    {
+      "sha1": "59ea95eda24b65cefd56ae98ad1c28423a329246",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_x86_64-2.35.191017.tar.gz",
+      "version": "2.35.191017"
+    },
+    {
+      "sha1": "1269d37bc9995ff0adc38835b1e059aafe53bf0a",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_aarch64-2.35.191018.tar.gz",
+      "version": "2.35.191018"
+    },
+    {
+      "sha1": "930e1287385137c721b841890d1df932f74d837f",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_armv6l-2.35.191017.tar.gz",
+      "version": "2.35.191017"
+    },
+    {
+      "sha1": "218588dc90181d698f23fee4e383f9f8e24599f5",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-freebsd_amd64-2.36.191017.tar.gz",
+      "version": "2.36.191017"
+    },
+    {
+      "sha1": "22907577c8e8a7304e89650059058584198a21f2",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_amd64-2.35.191017.tar.gz",
+      "version": "2.35.191017"
+    },
+    {
+      "sha1": "41bde53a6c80e9fd907a85d9511c3b232a6844f1",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_i686-2.38.191017.tar.gz",
+      "version": "2.38.191017"
+    },
+    {
+      "sha1": "564b22281f6d915d98a07d429bb0cd535e37d9d0",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_amd64-2.36.191017.tar.gz",
+      "version": "2.36.191017"
+    },
+    {
+      "sha1": "3210cdfea86bbe8f167ca3d7079cc8fb146de2bd",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-freebsd_amd64-2.35.191017.tar.gz",
+      "version": "2.35.191017"
+    },
+    {
+      "sha1": "ee5d7e900fe305511bc5180242a697fc8cdf3faa",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_armv6l-2.38.191017.tar.gz",
+      "version": "2.38.191017"
+    },
+    {
+      "sha1": "d499179e0aed00a6a438f9770966ed65402aca63",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_aarch64-2.38.191018.tar.gz",
+      "version": "2.38.191018"
+    },
+    {
+      "sha1": "87a53716f2dad0b6dff83dcc84ea6e91b5da86d0",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_x86_64-2.38.191017.tar.gz",
+      "version": "2.38.191017"
+    },
+    {
+      "sha1": "49cae4609bc308b82435603c76797c4bd81fc2aa",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_amd64-2.37.191017.tar.gz",
+      "version": "2.37.191017"
+    },
+    {
+      "sha1": "c5258122fa717bbc4bbd1067f5eb3d41e6ea346b",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_x86-2.38.191019.tar.gz",
+      "version": "2.38.191019"
+    },
+    {
+      "sha1": "015418705a3041da295de20e760e9c99ee789825",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-freebsd_amd64-2.27.191017.tar.gz",
+      "version": "2.27.191017"
+    },
+    {
+      "sha1": "c199a3ae346dc155540f797b32e8f149478cb61e",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-freebsd_amd64-2.37.191017.tar.gz",
+      "version": "2.37.191017"
+    },
+    {
+      "sha1": "d2d9b29f02f0159a3580b10be3c5c313745b8c5f",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_amd64-2.27.191017.tar.gz",
+      "version": "2.27.191017"
+    },
+    {
+      "sha1": "0ba1048dbe66775e3bee6da1c7f768fdae222983",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-darwin_x86_64-2.38.191017.tar.gz",
+      "version": "2.38.191017"
+    },
+    {
+      "sha1": "87499d37692a97d937a491af31e201ab9215d8a3",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_i686-2.27.191017.tar.gz",
+      "version": "2.27.191017"
+    },
+    {
+      "sha1": "9028a6df160d4389e50ba54444718cbd4d0e939f",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_x86-2.36.191017.tar.gz",
+      "version": "2.36.191017"
+    },
+    {
+      "sha1": "026232712f84e07cd0f42c7543328cbc33d711db",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-darwin_x86_64-2.36.191017.tar.gz",
+      "version": "2.36.191017"
+    },
+    {
+      "sha1": "8162f04c2154eab5dcbeb2db5e8c1c4f96c743d1",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_armv6l-2.27.191017.tar.gz",
+      "version": "2.27.191017"
+    },
+    {
+      "sha1": "eac969b9d93c452cd4ce0724515c22bbeeec20e2",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_aarch64-2.27.191018.tar.gz",
+      "version": "2.27.191018"
+    },
+    {
+      "sha1": "76953033d6b5b46f51a8be3a61631d5561ae43e5",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_x86_64-2.27.191017.tar.gz",
+      "version": "2.27.191017"
+    },
+    {
+      "sha1": "22764f3651f184105cda5f6225cdbfe15fc3ab12",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_x86_64-2.37.191017.tar.gz",
+      "version": "2.37.191017"
+    },
+    {
+      "sha1": "4b8dd221c18a3582da31af6806d05162c654e64a",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_aarch64-2.37.191018.tar.gz",
+      "version": "2.37.191018"
+    },
+    {
+      "sha1": "5554fb983b1d45e71448c67547b006d60b0a18f3",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_armv6l-2.37.191017.tar.gz",
+      "version": "2.37.191017"
+    },
+    {
+      "sha1": "2d0dd4597c4d98f0815ed5085ee0e6e1d9f6f46b",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-linux_i686-2.37.191017.tar.gz",
+      "version": "2.37.191017"
+    },
+    {
+      "sha1": "926063f1ff1734d5bde231ef6dcb7632225fbc1c",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-darwin_x86_64-2.35.191017.tar.gz",
+      "version": "2.35.191017"
+    },
+    {
+      "sha1": "599de3036a85164d2e682db4d4e546b15f54e5f8",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/contrib-pysite-windows_x86-2.35.191017.tar.gz",
+      "version": "2.35.191017"
+    }
+  ],
+  "framework-arduino-avr": [
+    {
+      "sha1": "eed8c571f0b42810c435d1da7f9efac6381986a0",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-5.0.0.tar.gz",
+      "version": "5.0.0"
+    }
+  ],
+  "framework-arduino-avr-attiny": [
+    {
+      "sha1": "2eee3820e747720c85d48681d81d97bfd5224222",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-attiny-1.3.2.tar.gz",
+      "version": "1.3.2"
+    }
+  ],
+  "framework-arduino-avr-bean": [
+    {
+      "sha1": "f7649b086bb8234294e40cebf870669111968622",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-bean-2.0.3.tar.gz",
+      "version": "2.0.3"
+    }
+  ],
+  "framework-arduino-avr-core13": [
+    {
+      "sha1": "a8e49951803482182aa60ad5d2aceb6861f02373",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-core13-0.0.22.tar.gz",
+      "version": "0.0.22"
+    }
+  ],
+  "framework-arduino-avr-digistump": [
+    {
+      "sha1": "f75a8c45b5936e0d723a28527f18f50a3ba06201",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-digistump-1.6.7.tar.gz",
+      "version": "1.6.7"
+    }
+  ],
+  "framework-arduino-avr-dwenguino": [
+    {
+      "sha1": "d428a073cb3aa9385a0270ab46404bc9d9951bdb",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-dwenguino-2.2.1.tar.gz",
+      "version": "2.2.1"
+    }
+  ],
+  "framework-arduino-avr-megacore": [
+    {
+      "sha1": "566e9ce36eef187ca6a5621107defaaf315f8b05",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-megacore-2.0.2.tar.gz",
+      "version": "2.0.2"
+    }
+  ],
+  "framework-arduino-avr-mightycore": [
+    {
+      "sha1": "1e3161754da0c013380cd6b5b00854ad1f2135a8",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-mightycore-2.0.3.tar.gz",
+      "version": "2.0.3"
+    }
+  ],
+  "framework-arduino-avr-minicore": [
+    {
+      "sha1": "ae981a2a3f0da997cd34f4602b477d1558b7f179",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-minicore-2.0.3.tar.gz",
+      "version": "2.0.3"
+    }
+  ],
+  "framework-arduino-avr-nicai": [
+    {
+      "sha1": "291aab826b739f6b85dbbc949a84d10d861b24dc",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-nicai-3.5.0.tar.gz",
+      "version": "3.5.0"
+    }
+  ],
+  "framework-arduino-avr-panstamp": [
+    {
+      "sha1": "c4ec61500a9a9e6f51d41aad9f980ed4dec0929a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-panstamp-1.5.7.tar.gz",
+      "version": "1.5.7"
+    }
+  ],
+  "framework-arduino-avr-prusa_rambo": [
+    {
+      "sha1": "45bc7a23efb80228f056f46e3bae09fa20a7cd98",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-avr-prusa_rambo-1.0.1.tar.gz",
+      "version": "1.0.1"
+    }
+  ],
+  "framework-arduino-gd32v": [
+    {
+      "sha1": "636ca7403cc1b653b7595e4068bb235e710baf87",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-gd32v-0.1.1.tar.gz",
+      "version": "0.1.1"
+    }
+  ],
+  "framework-arduino-megaavr": [
+    {
+      "sha1": "bfae4ed793274a707f40e7bf9c67e87e3e297479",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-megaavr-1.8.5.tar.gz",
+      "version": "1.8.5"
+    }
+  ],
+  "framework-arduino-nrf52-mbedos": [
+    {
+      "sha1": "d7120973fcba5d9cd6563318433adda87eee4630",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduino-nrf52-mbedos-1.1.3.tar.gz",
+      "version": "1.1.3"
+    }
+  ],
+  "framework-arduinoadafruitnrf52": [
+    {
+      "sha1": "0ab0a3c908563c6b68c570771c5b9f244dae6518",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoadafruitnrf52-1.903.0.tar.gz",
+      "version": "1.903.0"
+    },
+    {
+      "sha1": "e6339357703449b588c2d1872241ffb2c810955f",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoadafruitnrf52-1.1001.190508.tar.gz",
+      "version": "1.1001.190508"
+    },
+    {
+      "sha1": "5f70a414d344b05b73f53d70d93224ca3befa911",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoadafruitnrf52-1.1405.191023.tar.gz",
+      "version": "1.1405.191023"
+    },
+    {
+      "sha1": "e867c6abe40de1835a585ebf10173a866ec4909c",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoadafruitnrf52-1.1300.190829.tar.gz",
+      "version": "1.1300.190829"
+    },
+    {
+      "sha1": "b2132b64a75bda5bc6ee84c8d94b5ce0d30fc922",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoadafruitnrf52-1.1101.190718.tar.gz",
+      "version": "1.1101.190718"
+    }
+  ],
+  "framework-arduinoavr": [
+    {
+      "sha1": "10cae8097161e731c9b7d9c935be4e4ccf81eaad",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-2.10623.190209.tar.gz",
+      "version": "2.10623.190209"
+    },
+    {
+      "sha1": "e2ae676edc9d0b3dc493c11d58cd77c17de22df7",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-1.10612.1.tar.gz",
+      "version": "1.10612.1"
+    },
+    {
+      "sha1": "dcda2e7d4a2b2069c0fc33353ad7c12d5ec5f398",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-4.1.2.tar.gz",
+      "version": "4.1.2"
+    },
+    {
+      "sha1": "1d819c792a5d747abf210eacef2a30b5c0d677a8",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-4.0.0.tar.gz",
+      "version": "4.0.0"
+    },
+    {
+      "sha1": "fe5b0edd2eabc8d86221fd7c0b34839494a97fcb",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-1.10617.4.tar.gz",
+      "version": "1.10617.4"
+    },
+    {
+      "sha1": "6f98c48c65c1dd54fa0382a4ecbcdee6e0956a1f",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-1.10621.1.tar.gz",
+      "version": "1.10621.1"
+    },
+    {
+      "sha1": "9f028906e49e26021025ed0f65a8eabfbfd08113",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-4.2.0.tar.gz",
+      "version": "4.2.0"
+    },
+    {
+      "sha1": "4bb63e0747b238ef26bd092b5de18e254e8db0f1",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-1.10619.0.tar.gz",
+      "version": "1.10619.0"
+    },
+    {
+      "sha1": "1e9ae4fc60e0976b4428e6bc37a6e1041548a9fb",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-3.10623.190424.tar.gz",
+      "version": "3.10623.190424"
+    },
+    {
+      "sha1": "3b1b2d68c4253b21f09b63e676f6d9bc5ce8811a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-1.10623.190125.tar.gz",
+      "version": "1.10623.190125"
+    },
+    {
+      "sha1": "914f3f3c1a4815e8495504fc50f43e98175e3465",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-1.10620.2.tar.gz",
+      "version": "1.10620.2"
+    },
+    {
+      "sha1": "c09e1519b2aa86365ea1831321805bd2fc1117c0",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-1.10608.2.tar.gz",
+      "version": "1.10608.2"
+    },
+    {
+      "sha1": "5018a24edbf26ef3e874ebd7bd9108a819ef58b2",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoavr-1.10618.4.tar.gz",
+      "version": "1.10618.4"
+    }
+  ],
+  "framework-arduinoespressif32": [
+    {
+      "sha1": "553fe9ef85dbcff8c0f9ecbc4ada3901a723e91c",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-1.1.5.tar.gz",
+      "version": "1.1.5"
+    },
+    {
+      "sha1": "0288a325553de873652bb6c2a6ca2a26ffbf5c8b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-1.4.0.tar.gz",
+      "version": "1.4.0"
+    },
+    {
+      "sha1": "27df506d863696ef51caf4cbb08e3470abf01f17",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-1.2.0.tar.gz",
+      "version": "1.2.0"
+    },
+    {
+      "sha1": "438d7d24e3a96866cbe364f6a8fd2e5a74910dbd",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-2.10004.191002.tar.gz",
+      "version": "2.10004.191002"
+    },
+    {
+      "sha1": "9f997fddd5462de4ab9490d62574d82d5729ac8a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-2.10001.190111.tar.gz",
+      "version": "2.10001.190111"
+    },
+    {
+      "sha1": "a36e2dc833f2a6152b341b2dd9f54d4335a8ba0e",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-1.3.2.tar.gz",
+      "version": "1.3.2"
+    },
+    {
+      "sha1": "b9747122dd9955bfb47ead0ab5125c857c79f75f",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-1.10000.0.tar.gz",
+      "version": "1.10000.0"
+    },
+    {
+      "sha1": "136891e8096981a2bb9289afc6edef09773ffcd6",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-1.5.3.tar.gz",
+      "version": "1.5.3"
+    },
+    {
+      "sha1": "c4fc7c6d3ee8ee8fd02b2441e9abda4821005aa6",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-1.6.0.tar.gz",
+      "version": "1.6.0"
+    },
+    {
+      "sha1": "58c047961240db3671fc1fb8a8115c25998f661a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-2.10002.190628.tar.gz",
+      "version": "2.10002.190628"
+    },
+    {
+      "sha1": "e1e34dad077e53d38f67f932ba86bb8f7316247c",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-2.10000.0.tar.gz",
+      "version": "2.10000.0"
+    },
+    {
+      "sha1": "89670c8a55ca75b6c87df9f38b2014a30a7f2659",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif32-2.10003.190916.tar.gz",
+      "version": "2.10003.190916"
+    }
+  ],
+  "framework-arduinoespressif8266": [
+    {
+      "sha1": "6fbb7809833fbaa099fd403bafff163d8b0c064f",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-1.20401.3.tar.gz",
+      "version": "1.20401.3"
+    },
+    {
+      "sha1": "ac1f3ceb11b8c7c2f5df53ff62555e5508061b24",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-1.20400.3.tar.gz",
+      "version": "1.20400.3"
+    },
+    {
+      "sha1": "965224924123c9ae2a0666892933f13eb3cd7d4c",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-2.20501.190515.tar.gz",
+      "version": "2.20501.190515"
+    },
+    {
+      "sha1": "f8ff3cf33e5610bf1b8dda26bd09d3981d34a207",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-2.20402.4.tar.gz",
+      "version": "2.20402.4"
+    },
+    {
+      "sha1": "6002908fd6d8ff524684628c9cd342b1e99284d4",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-1.20300.1.tar.gz",
+      "version": "1.20300.1"
+    },
+    {
+      "sha1": "bcf9a6d2da9e548b80cef2054ba3a8863836e10c",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-2.20500.190223.tar.gz",
+      "version": "2.20500.190223"
+    },
+    {
+      "sha1": "85bb8ce459950c2e442700162724d88f5772e136",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-2.20602.191128.tar.gz",
+      "version": "2.20602.191128"
+    },
+    {
+      "sha1": "da8fe889648cc6cc74850d1f9927fba54f1b3e85",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-2.20601.191124.tar.gz",
+      "version": "2.20601.191124"
+    },
+    {
+      "sha1": "4dd28cf421d50a4e1acf064cc10d8f613d65a026",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-2.20502.0.tar.gz",
+      "version": "2.20502.0"
+    },
+    {
+      "sha1": "a93d588b69bdbb2e01ff2aee7c38bc90ab229526",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoespressif8266-2.20603.191216.tar.gz",
+      "version": "2.20603.191216"
+    }
+  ],
+  "framework-arduinointel": [
+    {
+      "sha1": "c423bba7bf3b40787c351e72b08fd68fe16f3df4",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinointel-1.10006.0.tar.gz",
+      "version": "1.10006.0"
+    },
+    {
+      "sha1": "7221a33147ab150be8b499ca698821d6dc23fcdc",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinointel-1.20002.0.tar.gz",
+      "version": "1.20002.0"
+    }
+  ],
+  "framework-arduinolinuxarm": [
+    {
+      "sha1": "2b4c1476a2d3fcd4770a3d0a7151f1abc2109dbf",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinolinuxarm-1.tar.gz",
+      "version": "1.308.0"
+    }
+  ],
+  "framework-arduinomicrochippic32": [
+    {
+      "sha1": "3edcd10d56e78a13957e48567e0e7b1ad32e1f42",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinomicrochippic32-1.10403.0.tar.gz",
+      "version": "1.10403.0"
+    },
+    {
+      "sha1": "6dd688d40f0e348d65225bf60399d7142f7e6f25",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinomicrochippic32-1.10301.0.tar.gz",
+      "version": "1.10301.0"
+    },
+    {
+      "sha1": "e6604428327ed425166d132a3990ba4c0d81501a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinomicrochippic32-1.20006.0.tar.gz",
+      "version": "1.20006.0"
+    }
+  ],
+  "framework-arduinomsp430": [
+    {
+      "sha1": "5e1b7f363325866475949ad2add115122983a37e",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinomsp430-1.10601.0.tar.gz",
+      "version": "1.10601.0"
+    }
+  ],
+  "framework-arduinonordicnrf5": [
+    {
+      "sha1": "63003aff80a0d692b6eb4dd8107863311ba23720",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinonordicnrf5-1.501.0.tar.gz",
+      "version": "1.501.0"
+    },
+    {
+      "sha1": "135740a7a10cabdf630b05c221463eac43082a63",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinonordicnrf5-0.3.0.tar.gz",
+      "version": "0.3.0"
+    },
+    {
+      "sha1": "815e92b0a7d04d3bd87a02d008dd5fbef9f57052",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinonordicnrf5-0.4.0.tar.gz",
+      "version": "0.4.0"
+    },
+    {
+      "sha1": "abdac5ed7d1aec45623c66fbe1e993e385a447a2",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinonordicnrf5-1.600.190830.tar.gz",
+      "version": "1.600.190830"
+    },
+    {
+      "sha1": "da0794444a68970d028de74c076243373b35687a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinonordicnrf5-0.5.1.tar.gz",
+      "version": "0.5.1"
+    }
+  ],
+  "framework-arduinonordicnrf51": [
+    {
+      "sha1": "0744d02087637b16dfe313ea7cabfe967d3023d6",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinonordicnrf51-1.20302.0.tar.gz",
+      "version": "1.20302.0"
+    }
+  ],
+  "framework-arduinosam": [
+    {
+      "sha1": "1bca4080cebf12ab840ba1fc0f84f40b7638bef8",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-2.10615.0.tar.gz",
+      "version": "2.10615.0"
+    },
+    {
+      "sha1": "363cbb16cc1271145a9df2dbf05888d8adbf18c1",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-2.10614.0.tar.gz",
+      "version": "2.10614.0"
+    },
+    {
+      "sha1": "12a8715abbd65ce9da0ba8bfa9a59a20ef62fa97",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-4.3.190711.tar.gz",
+      "version": "4.3.190711"
+    },
+    {
+      "sha1": "2fa7a77c760cd2aff08667623da60fc70b70400f",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-2.10616.1.tar.gz",
+      "version": "2.10616.1"
+    },
+    {
+      "sha1": "95207d74daa41e177ab8229f6511fddf2f74eadb",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-3.10618.0.tar.gz",
+      "version": "3.10618.0"
+    },
+    {
+      "sha1": "b83cd2a23c2201c0156bf5f3e1456d512ff5b111",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-3.10619.0.tar.gz",
+      "version": "3.10619.0"
+    },
+    {
+      "sha1": "203e2bf8d31242ab092d3489a8c0f0f90e4386a4",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-4.1.190506.tar.gz",
+      "version": "4.1.190506"
+    },
+    {
+      "sha1": "493884c5b0187e00897937c7316621ebc145a92f",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-4.4.191002.tar.gz",
+      "version": "4.4.191002"
+    },
+    {
+      "sha1": "0c3d503159864ad30d9e258aa37e442ae7a57b1d",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-1.10611.0.tar.gz",
+      "version": "1.10611.0"
+    },
+    {
+      "sha1": "086832ef794bd872e51e95a8d108b4904a538460",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-4.0.190215.tar.gz",
+      "version": "4.0.190215"
+    },
+    {
+      "sha1": "8e199e999191915412540c70f5946f8507313da7",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-2.10617.0.tar.gz",
+      "version": "2.10617.0"
+    },
+    {
+      "sha1": "9ef2791ba4341178ec7f0eddc9b7540cd00f6657",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-4.2.190701.tar.gz",
+      "version": "4.2.190701"
+    },
+    {
+      "sha1": "b752b9a199feb94c3a53ae5c1608f7c03718908f",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-1.10608.3.tar.gz",
+      "version": "1.10608.3"
+    },
+    {
+      "sha1": "5cbe87026583d73e214a7e9cb4bdac1ed653f2a0",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-2.10611.0.tar.gz",
+      "version": "2.10611.0"
+    },
+    {
+      "sha1": "f0c99b88fce53c0b426abb98a3b3340371e80883",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinosam-2.10618.1.tar.gz",
+      "version": "2.10618.1"
+    }
+  ],
+  "framework-arduinostm32mxchip": [
+    {
+      "sha1": "b4e3e46a1ac5f017e780b27ca0709260d72bf95b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinostm32mxchip-1.3.2.tar.gz",
+      "version": "1.3.2"
+    },
+    {
+      "sha1": "8c1e5355e915915b8c4379c0d156df204c45fac2",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinostm32mxchip-1.0.1.tar.gz",
+      "version": "1.0.1"
+    }
+  ],
+  "framework-arduinoststm32": [
+    {
+      "sha1": "e0a738fb9be50b5601b57d043c9bb66029dc2536",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-3.10601.190716.tar.gz",
+      "version": "3.10601.190716"
+    },
+    {
+      "sha1": "f8762df250e24b203471b04b493b17a97748b965",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-3.10500.190327.tar.gz",
+      "version": "3.10500.190327"
+    },
+    {
+      "sha1": "09a44e661f9b637421826f4395ceb7ced6bb87cb",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-2.0.0.tar.gz",
+      "version": "2.0.0"
+    },
+    {
+      "sha1": "f49fa2dc7ace75f16ecc719bae8b0527ad8c1cb3",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-2.1.180219.tar.gz",
+      "version": "2.1.180219"
+    },
+    {
+      "sha1": "9d4cac3a27150e82f6feb479f5fbfe653e305b10",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-2.2.180809.tar.gz",
+      "version": "2.2.180809"
+    },
+    {
+      "sha1": "25a25574675295e7d635df2d9f822ed7d310ddb2",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-2.0.170723.tar.gz",
+      "version": "2.0.170723"
+    },
+    {
+      "sha1": "a9415bd369207ca9eeb52dc35fcc70ba7ebcf2e8",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-3.10700.191028.tar.gz",
+      "version": "3.10700.191028"
+    },
+    {
+      "sha1": "3718a27ed46c55bb45c985b5abe5e9e3ab1caee9",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-3.10400.181126.tar.gz",
+      "version": "3.10400.181126"
+    },
+    {
+      "sha1": "a5711300dfa85fdf94233893cf5ea0992c4b7618",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-4.10700.200103.tar.gz",
+      "version": "4.10700.200103"
+    }
+  ],
+  "framework-arduinoststm32-maple": [
+    {
+      "sha1": "39d8fd5fb6a1c13def938ffa32a19618c8911198",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-maple-2.10000.200103.tar.gz",
+      "version": "2.10000.200103"
+    },
+    {
+      "sha1": "0bc02d4b5f9a0b8897c911d342d15f57f7b7d1f2",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32-maple-1.10000.190819.tar.gz",
+      "version": "1.10000.190819"
+    }
+  ],
+  "framework-arduinoststm32l0": [
+    {
+      "sha1": "17b8160d5c74d34b21af44e5d51fa49f686da9ee",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm32l0-1.10.191014.tar.gz",
+      "version": "1.10.191014"
+    }
+  ],
+  "framework-arduinoststm8": [
+    {
+      "sha1": "7f91214cf9eac9814862f47ee54047c1673b9f86",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoststm8-0.40.181216.tar.gz",
+      "version": "0.40.181216"
+    }
+  ],
+  "framework-arduinoteensy": [
+    {
+      "sha1": "3cc0670966ce4fd855762f30ba05b2cc0541580b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.136.0.tar.gz",
+      "version": "1.136.0"
+    },
+    {
+      "sha1": "6e4638aa3c41fd02621158b86cbe152a327d6c71",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.141.0.tar.gz",
+      "version": "1.141.0"
+    },
+    {
+      "sha1": "7303a4aa9ddabb22db499999abb68e1876598798",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.140.0.tar.gz",
+      "version": "1.140.0"
+    },
+    {
+      "sha1": "c0c61d55c9ad0175e8253837d4a8fa5718ff5c08",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.147.0.tar.gz",
+      "version": "1.147.0"
+    },
+    {
+      "sha1": "3fdbccbced081f182e41268265488421a84ef587",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.148.0.tar.gz",
+      "version": "1.148.0"
+    },
+    {
+      "sha1": "baa3e3c8e7e411b8f5f7918d11fecce08a7c531b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.135.0.tar.gz",
+      "version": "1.135.0"
+    },
+    {
+      "sha1": "b3de645c0d8fda9797ec651706bfae2ee527055d",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.145.0.tar.gz",
+      "version": "1.145.0"
+    },
+    {
+      "sha1": "14ca4a8a3f34f048533c63059aa9642c16d63cf2",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.144.0.tar.gz",
+      "version": "1.144.0"
+    }
+  ],
+  "framework-cmsis": [
+    {
+      "sha1": "30a4972f07dda98445f991674d30e52a45f223fb",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-cmsis-2.50400.181126.tar.gz",
+      "version": "2.50400.181126"
+    },
+    {
+      "sha1": "33f064194cc1360f141f1a36ac1d36b22839c020",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-cmsis-1.40300.0.tar.gz",
+      "version": "1.40300.0"
+    }
+  ],
+  "framework-energiamsp430": [
+    {
+      "sha1": "a1bb89050495b8b4b92a4756116077b3bdc13e7b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-energiamsp430-1.10807.190926.tar.gz",
+      "version": "1.10807.190926"
+    },
+    {
+      "sha1": "f6a913072d3959c8c00c3a91fb45908ee6aa4d71",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-energiamsp430-1.10610.0.tar.gz",
+      "version": "1.10610.0"
+    }
+  ],
+  "framework-energiativa": [
+    {
+      "sha1": "be26cdd42f6520e0614f6a352f617df7700441ce",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-energiativa-1.10002.0.tar.gz",
+      "version": "1.10002.0"
+    }
+  ],
+  "framework-espidf": [
+    {
+      "sha1": "d8282a4c467be53c68d7f73b974f0bd12637a665",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-3.30102.190109.tar.gz",
+      "version": "3.30102.190109"
+    },
+    {
+      "sha1": "1903a9a72a7059cb17c190ec9d1489b91b66cfaa",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-3.30200.190418.tar.gz",
+      "version": "3.30200.190418"
+    },
+    {
+      "sha1": "b75a60a531cd136ee97913f31a1304e51a9dedbf",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-2.301.0.tar.gz",
+      "version": "2.301.0"
+    },
+    {
+      "sha1": "9f3f111ebb5f155dce6585ff997c1c3ab6b36d8d",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-2.300.0.tar.gz",
+      "version": "2.300.0"
+    },
+    {
+      "sha1": "b00918931cc34e94dfc8cd2562595742d34a3ee5",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-3.30300.190916.tar.gz",
+      "version": "3.30300.190916"
+    },
+    {
+      "sha1": "d51e39098d6941822dbebb39984ebcfe273bdb46",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-3.30103.190221.tar.gz",
+      "version": "3.30103.190221"
+    },
+    {
+      "sha1": "e6efa7bbe5c6aec88dd093a27524c0418dde763a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-3.30003.0.tar.gz",
+      "version": "3.30003.0"
+    },
+    {
+      "sha1": "be6ee2428b7843ee659789fbdd76b9f60ef1aa39",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "1e78c1001aef0b3194bb75913217674772c6f925",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-3.30100.0.tar.gz",
+      "version": "3.30100.0"
+    },
+    {
+      "sha1": "ed19f3ee8ed6265e9d5aae79f0af9316114d7dde",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-3.30101.0.tar.gz",
+      "version": "3.30101.0"
+    },
+    {
+      "sha1": "a1d0a590e6b439cbc131517cfd6d4a97d0560b0d",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-2.302.0.tar.gz",
+      "version": "2.302.0"
+    },
+    {
+      "sha1": "18585c8799255b47851f35f3bfb91d4476a1193b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-3.30202.190627.tar.gz",
+      "version": "3.30202.190627"
+    },
+    {
+      "sha1": "a9df161d7a6c953b5523c518325377505233be3c",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-2.200.0.tar.gz",
+      "version": "2.200.0"
+    },
+    {
+      "sha1": "309e849fdf03bddad013f3b225fd689a0e5781a2",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-2.210.0.tar.gz",
+      "version": "2.210.0"
+    },
+    {
+      "sha1": "cfeb0ad2e4839c4860eac5de8c594cf0be55791d",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-espidf-2.211.0.tar.gz",
+      "version": "2.211.0"
+    }
+  ],
+  "framework-freedom-e-sdk": [
+    {
+      "sha1": "b74f1be29bcf159cec134af7674bc95bbc9e227f",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-freedom-e-sdk-1.20181009.1.tar.gz",
+      "version": "1.20181009.1"
+    },
+    {
+      "sha1": "660408f71cf5dca25c8214eced251e53b7afad60",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-freedom-e-sdk-2.201905.190703.tar.gz",
+      "version": "2.201905.190703"
+    },
+    {
+      "sha1": "572fee1268a4195c11408f04039b58bfa201e819",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-freedom-e-sdk-1.20180402.0.tar.gz",
+      "version": "1.20180402.0"
+    },
+    {
+      "sha1": "f1283613d753326ab93bf4e7eed616d9e490c575",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-freedom-e-sdk-2.201908.190927.tar.gz",
+      "version": "2.201908.190927"
+    }
+  ],
+  "framework-gap_sdk": [
+    {
+      "sha1": "e22b62025ad24a77e7509fb4cb8c6d84030fe2b7",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-gap_sdk-2.0.0.tar.gz",
+      "version": "2.0.0"
+    },
+    {
+      "sha1": "db34a27f00fc4696976547e8c449971ba61346a3",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-gap_sdk-1.2.181109.tar.gz",
+      "version": "1.2.181109"
+    }
+  ],
+  "framework-gd32vf103-sdk": [
+    {
+      "sha1": "eef4ad4bd4a88fbdd517b7e00a1a8951f921b4af",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-gd32vf103-sdk-1.0.0.tar.gz",
+      "version": "1.0.0"
+    }
+  ],
+  "framework-kendryte-freertos-sdk": [
+    {
+      "sha1": "9e271cf3d82bcbcb6ee5244279f4c2c04f2ecb85",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-kendryte-freertos-sdk-0.7.0.tar.gz",
+      "version": "0.7.0"
+    }
+  ],
+  "framework-kendryte-standalone-sdk": [
+    {
+      "sha1": "a6f0fdcda64eda38cf0a461aaef26adbc6819787",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-kendryte-standalone-sdk-0.5.6.tar.gz",
+      "version": "0.5.6"
+    }
+  ],
+  "framework-libopencm3": [
+    {
+      "sha1": "b91103a1886c930ac1234fba92a5d5c360fb0c12",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-libopencm3-1.1.0.tar.gz",
+      "version": "1.1.0"
+    }
+  ],
+  "framework-maixduino": [
+    {
+      "sha1": "99ff6f653aee45a92a0b934dda77fa682c89ac38",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-maixduino-0.3.9.tar.gz",
+      "version": "0.3.9"
+    }
+  ],
+  "framework-mbed": [
+    {
+      "sha1": "6dfa5ba1da8fa69e0ffd995c1bf55bd6a1951dd1",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.146.0.tar.gz",
+      "version": "4.146.0"
+    },
+    {
+      "sha1": "387f273fd53e86f464147fb4468f68cb24241ca7",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.51401.200110.tar.gz",
+      "version": "5.51401.200110"
+    },
+    {
+      "sha1": "4b42d481b409294c8a610b6fe2f771f368842937",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.50806.1.tar.gz",
+      "version": "4.50806.1"
+    },
+    {
+      "sha1": "63cdba87288ffa8f34cc96939d745cbc54184efa",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-3.131.0.tar.gz",
+      "version": "3.131.0"
+    },
+    {
+      "sha1": "5260ebcaf349d185867f8c319dc4b439f85d33b1",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.150.0.tar.gz",
+      "version": "4.150.0"
+    },
+    {
+      "sha1": "7c639c823d368d4e140f6692a9623ba383e8fc18",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.151.0.tar.gz",
+      "version": "4.151.0"
+    },
+    {
+      "sha1": "e0be95907dcb3087798a93be2fe47a01b9419de9",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.50904.1.tar.gz",
+      "version": "5.50904.1"
+    },
+    {
+      "sha1": "2f64f8b53b6e4cbfe7889d9ac9e07093aff9aa0a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.51001.181029.tar.gz",
+      "version": "5.51001.181029"
+    },
+    {
+      "sha1": "64cb7f00b3df6a5a34c3637749be6b341128efd2",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.51103.190208.tar.gz",
+      "version": "5.51103.190208"
+    },
+    {
+      "sha1": "525ad0e59c07305e160f5ad165ba94697f10ce3b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.51104.190222.tar.gz",
+      "version": "5.51104.190222"
+    },
+    {
+      "sha1": "5448284a30244b830e8368577f14038b4a89cd19",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.157.0.tar.gz",
+      "version": "4.157.0"
+    },
+    {
+      "sha1": "e76a056d43bc439d45e292558e30e699889b1143",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.156.0.tar.gz",
+      "version": "4.156.0"
+    },
+    {
+      "sha1": "a3728600dea46531ad8fec2500af066f2575b138",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.50802.0.tar.gz",
+      "version": "4.50802.0"
+    },
+    {
+      "sha1": "f04b520e0b91f0fc7c26091f88fd0f79a3354340",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-3.137.0.tar.gz",
+      "version": "3.137.0"
+    },
+    {
+      "sha1": "17a7d537aa101784276937c0f03e2d78a5fb7c7b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.51203.190509.tar.gz",
+      "version": "5.51203.190509"
+    },
+    {
+      "sha1": "f96069d1fafa0e9fd28728eb876716c8780aa02a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.51105.190312.tar.gz",
+      "version": "5.51105.190312"
+    },
+    {
+      "sha1": "ae3ce07d3102ad15c1fdab212999644fc4686408",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.51304.190826.tar.gz",
+      "version": "5.51304.190826"
+    },
+    {
+      "sha1": "e358d20d6f4371869520d89d67522d15530b2822",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.50703.1.tar.gz",
+      "version": "4.50703.1"
+    },
+    {
+      "sha1": "8c3a602ed0f0950acc3311a59e056fd998e06a47",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-5.51204.190701.tar.gz",
+      "version": "5.51204.190701"
+    },
+    {
+      "sha1": "226a561dc5f95f16df799137c52eebe049fb9c88",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.152.0.tar.gz",
+      "version": "4.152.0"
+    },
+    {
+      "sha1": "e1ea9bfd170d450c3848c057ea6e052d2efd44df",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.50701.0.tar.gz",
+      "version": "4.50701.0"
+    },
+    {
+      "sha1": "1955949a68728031a05dc78dab0c3157b70c6ff8",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-3.126.1.tar.gz",
+      "version": "3.126.1"
+    },
+    {
+      "sha1": "52dd84057effa218f1d308d645970a2604873f6e",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-3.144.0.tar.gz",
+      "version": "3.144.0"
+    },
+    {
+      "sha1": "8319b058aa3f7abf6fe49e245717ddcd32defde7",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-6.51401.200113.tar.gz",
+      "version": "6.51401.200113"
+    },
+    {
+      "sha1": "8cce65d4b355cb86a149e82844aea05074df6d13",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.50707.0.tar.gz",
+      "version": "4.50707.0"
+    },
+    {
+      "sha1": "68202ac728f6ba2c9009c01453754d7d14e8fc6a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.149.0.tar.gz",
+      "version": "4.149.0"
+    },
+    {
+      "sha1": "291c1f3560e63e6a6b02acea95fdbd6ac8353d71",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.148.0.tar.gz",
+      "version": "4.148.0"
+    },
+    {
+      "sha1": "039480eb504ab6caa485b33490af58ec42378130",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-3.142.0.tar.gz",
+      "version": "3.142.0"
+    },
+    {
+      "sha1": "c7ec951cacb72c77316549f18b10952bede1a11c",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-mbed-4.154.0.tar.gz",
+      "version": "4.154.0"
+    }
+  ],
+  "framework-shakti-sdk": [
+    {
+      "sha1": "c1adaf1b7f0288121eaa310ab566b23cd359649b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-shakti-sdk-0.0.190827.tar.gz",
+      "version": "0.0.190827"
+    }
+  ],
+  "framework-spl": [
+    {
+      "sha1": "8e445e41225370242a41326d45f527a30d9527a7",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-spl-2.10201.0.tar.gz",
+      "version": "2.10201.0"
+    },
+    {
+      "sha1": "de9fce97b69b63104d9168d9166f7dac31349419",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-spl-1.10201.0.tar.gz",
+      "version": "1.10201.0"
+    }
+  ],
+  "framework-stm32cube": [
+    {
+      "sha1": "dc1f3e610b164412956532f9fa1f2bb6396b1c36",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-stm32cube-2.0.181130.tar.gz",
+      "version": "2.0.181130"
+    },
+    {
+      "sha1": "cec4ef2d1b7c114103d8a250b944a3853ad50ef6",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-stm32cube-1.2.0.tar.gz",
+      "version": "1.2.0"
+    },
+    {
+      "sha1": "d97ace737633ae40f7c9f296be243fb4964b4e99",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-stm32cube-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "ae129eba0f80a6c48d8749a3f32639bc37e4ccfa",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-stm32cube-1.0.0.tar.gz",
+      "version": "1.0.0"
+    }
+  ],
+  "framework-ststm8spl": [
+    {
+      "sha1": "d3d83560e2c4457212cfee3abba929e0dcaea8cc",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-ststm8spl-0.20301.181217.tar.gz",
+      "version": "0.20301.181217"
+    }
+  ],
+  "framework-wiringpi": [
+    {
+      "sha1": "3486899f06bae95cdc2667b32c62f0585bc5a35d",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l"
+      ],
+      "url": "http://dl.platformio.org/packages/framework-wiringpi-1.232.0.tar.gz",
+      "version": "1.232.0"
+    },
+    {
+      "sha1": "da845a72cb0cbee2fcbd6d487939bbb98ec0d3e9",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/framework-wiringpi-linux_armv6l-1.242.0.tar.gz",
+      "version": "1.242.0"
+    }
+  ],
+  "framework-zephyr": [
+    {
+      "sha1": "2eab19d077ff789992ef64ac90279a9fe79592e8",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-1.20100.200106.tar.gz",
+      "version": "1.20100.200106"
+    }
+  ],
+  "framework-zephyr-civetweb": [
+    {
+      "sha1": "fb6eee6a9ab5871e8b80d9065a5a7b1d82fd637b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-civetweb-0.20100.190807.tar.gz",
+      "version": "0.20100.190807"
+    }
+  ],
+  "framework-zephyr-fatfs": [
+    {
+      "sha1": "eae87b386b699b8ccbe1fbcd5ba1f1c82e25fe9b",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-fatfs-0.20100.190522.tar.gz",
+      "version": "0.20100.190522"
+    }
+  ],
+  "framework-zephyr-hal-atmel": [
+    {
+      "sha1": "61c3d5776767a6d5a4fb8b41944b5944da671b4a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-hal-atmel-0.20100.190310.tar.gz",
+      "version": "0.20100.190310"
+    }
+  ],
+  "framework-zephyr-hal-nordic": [
+    {
+      "sha1": "af52fe2a4f108edd15de2845d11d5cb8fb3694a7",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-hal-nordic-0.20100.191028.tar.gz",
+      "version": "0.20100.191028"
+    }
+  ],
+  "framework-zephyr-hal-nxp": [
+    {
+      "sha1": "c5aa972bca87246cffb1021202aa082aff7f1a7a",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-hal-nxp-0.20100.191106.tar.gz",
+      "version": "0.20100.191106"
+    }
+  ],
+  "framework-zephyr-hal-silabs": [
+    {
+      "sha1": "192193b7f71358e81e0808d34f08b0bb25de4a97",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-hal-silabs-0.20100.190530.tar.gz",
+      "version": "0.20100.190530"
+    }
+  ],
+  "framework-zephyr-hal-st": [
+    {
+      "sha1": "d7a8417b073f87ac7d00597d144f5d59adb6ef8e",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-hal-st-0.20100.190924.tar.gz",
+      "version": "0.20100.190924"
+    }
+  ],
+  "framework-zephyr-hal-stm32": [
+    {
+      "sha1": "93409c0411c46d34c1d2c5a0346810c715251b12",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-hal-stm32-0.20100.190619.tar.gz",
+      "version": "0.20100.190619"
+    }
+  ],
+  "framework-zephyr-libmetal": [
+    {
+      "sha1": "1ff643155f9bb7bf707bb01b4695a4ae60ac5fca",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-libmetal-0.20100.190530.tar.gz",
+      "version": "0.20100.190530"
+    }
+  ],
+  "framework-zephyr-littlefs": [
+    {
+      "sha1": "44a1616d40e873f8876423dd30d1a664e4517547",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-littlefs-0.20100.190811.tar.gz",
+      "version": "0.20100.190811"
+    }
+  ],
+  "framework-zephyr-lvgl": [
+    {
+      "sha1": "272ba33b85cd09122a9bd2cfb42c246752a48540",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-lvgl-0.20100.190812.tar.gz",
+      "version": "0.20100.190812"
+    }
+  ],
+  "framework-zephyr-mbedtls": [
+    {
+      "sha1": "a966f6cbfe017d5d4c3e0b4c9588afaa33056b27",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-mbedtls-0.20100.191006.tar.gz",
+      "version": "0.20100.191006"
+    }
+  ],
+  "framework-zephyr-mcumgr": [
+    {
+      "sha1": "22a725e616f51f85d3b290f8ea7466a5edfbd8b4",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-mcumgr-0.20100.190528.tar.gz",
+      "version": "0.20100.190528"
+    }
+  ],
+  "framework-zephyr-mipi-sys-t": [
+    {
+      "sha1": "dea0dad39e6f09b20b1006a59636cd5cdd1e0ac5",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-mipi-sys-t-0.20100.191024.tar.gz",
+      "version": "0.20100.191024"
+    }
+  ],
+  "framework-zephyr-nffs": [
+    {
+      "sha1": "1763b12a84b8c897886264177dc9db7708ee0252",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-nffs-0.20100.190523.tar.gz",
+      "version": "0.20100.190523"
+    }
+  ],
+  "framework-zephyr-open-amp": [
+    {
+      "sha1": "8aa2df33efadb40fe8af970418732df895875058",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-open-amp-0.20100.190612.tar.gz",
+      "version": "0.20100.190612"
+    }
+  ],
+  "framework-zephyr-openthread": [
+    {
+      "sha1": "28145dcc8d414ff1094876a4f47ebf5881518f43",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-openthread-0.20100.191024.tar.gz",
+      "version": "0.20100.191024"
+    }
+  ],
+  "framework-zephyr-segger": [
+    {
+      "sha1": "443da42dd4b942b6a1d3ea5ed7379128fe4e363e",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-segger-0.20100.190421.tar.gz",
+      "version": "0.20100.190421"
+    }
+  ],
+  "framework-zephyr-tinycbor": [
+    {
+      "sha1": "0543ec96752145482ca17dc9fa66795f85fd9ec3",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-tinycbor-0.20100.191016.tar.gz",
+      "version": "0.20100.191016"
+    }
+  ],
+  "sdk-esp8266": [
+    {
+      "sha1": "e0a8db5f9dc1c0d323e22dcd5e6dc60ff1290b23",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/sdk-esp8266-1.10502.0.tar.gz",
+      "version": "1.10502.0"
+    }
+  ],
+  "tool-arduino101load": [
+    {
+      "sha1": "c0c5db69aac9836c7dcf5590dcf829523d385cea",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-arduino101load-linux_i686-1.201.0.tar.gz",
+      "version": "1.201.0"
+    },
+    {
+      "sha1": "80d0e65efe68160f70246cfb45656dc7e6972a47",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-arduino101load-linux_x86_64-1.124.0.tar.gz",
+      "version": "1.124.0"
+    },
+    {
+      "sha1": "109c18774a5e5764a2198494ef77206a3371b57d",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-arduino101load-windows-1.201.0.tar.gz",
+      "version": "1.201.0"
+    },
+    {
+      "sha1": "91e9be5e2923323dda8d3316d98857c9ac12f451",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-arduino101load-darwin_x86_64-1.124.0.tar.gz",
+      "version": "1.124.0"
+    },
+    {
+      "sha1": "f35c222f7c959e29b137feec90cd9bf33d3880ea",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-arduino101load-linux_x86_64-1.201.0.tar.gz",
+      "version": "1.201.0"
+    },
+    {
+      "sha1": "e32771ebdba442a990b930e68f9d2c64ecfa81a2",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-arduino101load-linux_i686-1.124.0.tar.gz",
+      "version": "1.124.0"
+    },
+    {
+      "sha1": "6b4e4e2d28a484fde240f44f78dea511648f7688",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-arduino101load-darwin_x86_64-1.201.0.tar.gz",
+      "version": "1.201.0"
+    },
+    {
+      "sha1": "1034bb5a1be4b58742525030df25f778347d5f08",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-arduino101load-windows-1.124.0.tar.gz",
+      "version": "1.124.0"
+    }
+  ],
+  "tool-avrdude": [
+    {
+      "sha1": "df8bca368044c1f9a571fb3f0e098c9f3bfadaa1",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-windows-1.60001.1.tar.gz",
+      "version": "1.60001.1"
+    },
+    {
+      "sha1": "fa970a9ebe2cbc0f78e72c8da830e79b2a548e6a",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/tool-avrdude-linux_aarch64-1.60300.190628.tar.gz",
+      "version": "1.60300.190628"
+    },
+    {
+      "sha1": "1833e34281a743999a57fb01043a5b793795271d",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-avrdude-linux_i686-1.60300.190424.tar.gz",
+      "version": "1.60300.190424"
+    },
+    {
+      "sha1": "28c74b76e2a44e5a12201d7046145f710fba20af",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-avrdude-linux_x86_64-1.60300.190424.tar.gz",
+      "version": "1.60300.190424"
+    },
+    {
+      "sha1": "784171f9e0443ec162047be62af2b930e991047b",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-avrdude-darwin_x86_64-1.60300.190628.tar.gz",
+      "version": "1.60300.190628"
+    },
+    {
+      "sha1": "1fe88b12c659cc181d767877b11b5187e733fa84",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/tool-avrdude-freebsd_amd64-1.60300.190424.tar.gz",
+      "version": "1.60300.190424"
+    },
+    {
+      "sha1": "d021f051550f0cc06a1fbc371125fa171b2dbcae",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-linux_armv6l-1.60001.1.tar.gz",
+      "version": "1.60001.1"
+    },
+    {
+      "sha1": "1d2e81605695403533e0b802767e77598f95a16a",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-windows-1.60300.190424.tar.gz",
+      "version": "1.60300.190424"
+    },
+    {
+      "sha1": "1e13e617839de2b4d9e454d1a7d6821a09e6a49a",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-linux_x86_64-1.60001.1.tar.gz",
+      "version": "1.60001.1"
+    },
+    {
+      "sha1": "80e7fa8c4b885f553a48ec8cffddb1a24777413d",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-darwin_x86_64-1.60001.1.tar.gz",
+      "version": "1.60001.1"
+    },
+    {
+      "sha1": "558344b5721141379ec6344294d2500ba077763d",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-linux_armv6l-1.60300.190424.tar.gz",
+      "version": "1.60300.190424"
+    },
+    {
+      "sha1": "d946fcf1e213e786fe9e30a85eab8e64ddb6e278",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-linux_i686-1.60001.1.tar.gz",
+      "version": "1.60001.1"
+    }
+  ],
+  "tool-avrdude-megaavr": [
+    {
+      "sha1": "911d82bfc2606c92090a96e488d2bf4fad32968c",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-megaavr-linux_armv6l-1.60300.191015.tar.gz",
+      "version": "1.60300.191015"
+    },
+    {
+      "sha1": "f52c4283948db110de3bd612ec77989a6a819a0c",
+      "system": [
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-megaavr-linux_aarch64-1.60300.191015.tar.gz",
+      "version": "1.60300.191015"
+    },
+    {
+      "sha1": "44055fb35ce2e94a67282c4e4f6292338475e286",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-megaavr-linux_i686-1.60300.191015.tar.gz",
+      "version": "1.60300.191015"
+    },
+    {
+      "sha1": "8279654b4a1639e9d10bf2b5cec92afb0e824ead",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-megaavr-linux_x86_64-1.60300.191015.tar.gz",
+      "version": "1.60300.191015"
+    },
+    {
+      "sha1": "905a5cf005e72ed46a0be13748876e25ad6c6801",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-megaavr-windows-1.60300.191015.tar.gz",
+      "version": "1.60300.191015"
+    },
+    {
+      "sha1": "0d396b14e01cc1b11f8de7bdf26c09e6aa2f8a89",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-avrdude-megaavr-darwin_x86_64-1.60300.191015.tar.gz",
+      "version": "1.60300.191015"
+    }
+  ],
+  "tool-bossac": [
+    {
+      "sha1": "934f20e79338f3f3491447bd1ab26ad1c77ad22c",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_armv6l-1.10700.190624.tar.gz",
+      "version": "1.10700.190624"
+    },
+    {
+      "sha1": "9d81634cc3c566f407089468bb6c8316ade26bd6",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-windows-1.10700.190624.tar.gz",
+      "version": "1.10700.190624"
+    },
+    {
+      "sha1": "70d023c55da9162359e5a37ea169f414da8f0544",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_x86_64-1.10601.0.tar.gz",
+      "version": "1.10601.0"
+    },
+    {
+      "sha1": "1d8766db7668c6241786d7edee33bcf88afcbb91",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_i686-1.10900.0.tar.gz",
+      "version": "1.10900.0"
+    },
+    {
+      "sha1": "f56ae0b38cb1fee8b6a6008a64c8b28f393e2063",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-windows-1.10601.0.tar.gz",
+      "version": "1.10601.0"
+    },
+    {
+      "sha1": "b3ab470be21b757afaf5ce2b031c2b4c2e236637",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-windows-1.10900.0.tar.gz",
+      "version": "1.10900.0"
+    },
+    {
+      "sha1": "a2b88600706eecdb8a96883769d40880e0509725",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_i686-1.10700.190624.tar.gz",
+      "version": "1.10700.190624"
+    },
+    {
+      "sha1": "9131ad757ce1bd87148984b9b270ae3feb7d19a3",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_i686-1.10601.0.tar.gz",
+      "version": "1.10601.0"
+    },
+    {
+      "sha1": "5a5d810c936be4c69034f63719a68bb1f8543130",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_x86_64-1.10900.0.tar.gz",
+      "version": "1.10900.0"
+    },
+    {
+      "sha1": "7149ce9939a84d95beb5844abf5531d662ffb1f4",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-darwin_x86_64-1.10900.0.tar.gz",
+      "version": "1.10900.0"
+    },
+    {
+      "sha1": "51b590508d50c37ce6ae66e27a243a26ec4eeb2e",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_armv6l-1.10601.0.tar.gz",
+      "version": "1.10601.0"
+    },
+    {
+      "sha1": "7fa2ee5ec6a49d1e13d1f91618f6664c6059c309",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-darwin_x86_64-1.10700.190624.tar.gz",
+      "version": "1.10700.190624"
+    },
+    {
+      "sha1": "ef75f7d24006ef4a8a82e7e118a57cdfa46f9efa",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_armv6l-1.10900.0.tar.gz",
+      "version": "1.10900.0"
+    },
+    {
+      "sha1": "b6427fee46a3bc426074762c324760f1f116e05f",
+      "system": [
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_aarch64-1.10700.190624.tar.gz",
+      "version": "1.10700.190624"
+    },
+    {
+      "sha1": "5e7d4c4081f0bd4fb935422bbb20b3b0ccfc00de",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-darwin_x86_64-1.10601.0.tar.gz",
+      "version": "1.10601.0"
+    },
+    {
+      "sha1": "be1dde6d3977c7dc999541d1521ce5c9cf48a4fb",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-linux_x86_64-1.10700.190624.tar.gz",
+      "version": "1.10700.190624"
+    }
+  ],
+  "tool-bossac-nordicnrf52": [
+    {
+      "sha1": "ccc18c3b114921fd093064e705061c27025c7499",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-nordicnrf52-linux_i686-1.10866.191129.tar.gz",
+      "version": "1.10866.191129"
+    },
+    {
+      "sha1": "e403d79715b3a4f16c833d420949fe4638a3fbc6",
+      "system": [
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-nordicnrf52-linux_aarch64-1.10866.191129.tar.gz",
+      "version": "1.10866.191129"
+    },
+    {
+      "sha1": "77ee5746005a779731949e7baaa5324b92da0e9d",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-nordicnrf52-darwin_x86_64-1.10866.191129.tar.gz",
+      "version": "1.10866.191129"
+    },
+    {
+      "sha1": "bffe99cf44272950a6c2b955579ca56b1e4fb32b",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-nordicnrf52-linux_x86_64-1.10866.191129.tar.gz",
+      "version": "1.10866.191129"
+    },
+    {
+      "sha1": "77d41104b326a763912a96dba2741c46cebb777c",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-nordicnrf52-windows-1.10866.191129.tar.gz",
+      "version": "1.10866.191129"
+    },
+    {
+      "sha1": "fe0257fb245427093bd9354d80fd862c1848d652",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-bossac-nordicnrf52-linux_armv6l-1.10866.191129.tar.gz",
+      "version": "1.10866.191129"
+    }
+  ],
+  "tool-clangtidy": [
+    {
+      "sha1": "f95f5a3020cb87735bb8686953198b55793cb092",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-clangtidy-windows-1.90000.0.tar.gz",
+      "version": "1.90000.0"
+    },
+    {
+      "sha1": "fa10fedcac019e6858448050b8111b6db229c3d7",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-clangtidy-darwin_x86_64-1.80000.0.tar.gz",
+      "version": "1.80000.0"
+    },
+    {
+      "sha1": "4aa23ca1dda306a34ae450f55d4c2f2567f6157b",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-clangtidy-linux_x86_64-1.90000.0.tar.gz",
+      "version": "1.90000.0"
+    }
+  ],
+  "tool-cmake": [
+    {
+      "sha1": "fd222cb87f1a706a95957b32944fd7ec6f823d8e",
+      "system": [
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-cmake-windows_x86-3.15.5.tar.gz",
+      "version": "3.15.5"
+    },
+    {
+      "sha1": "d9123404ccb940f913f732f2eea03f24dbada31d",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/tool-cmake-windows_amd64-3.15.5.tar.gz",
+      "version": "3.15.5"
+    },
+    {
+      "sha1": "4a6aa36c172a85fbe6ac25d43cbfd67e320eb71c",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-cmake-linux_x86_64-3.15.5.tar.gz",
+      "version": "3.15.5"
+    },
+    {
+      "sha1": "cb569b0e9b9b9326faa079887e4f6d279bb2b5be",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-cmake-darwin_x86_64-3.15.5.tar.gz",
+      "version": "3.15.5"
+    }
+  ],
+  "tool-cppcheck": [
+    {
+      "sha1": "6b5d88437df13c68560b6a8f1c515bb4debdac71",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-cppcheck-linux_i686-1.189.0.tar.gz",
+      "version": "1.189.0"
+    },
+    {
+      "sha1": "ff2cab83bf14eaae17afd7e03a298c0fc625680e",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-cppcheck-darwin_x86_64-1.189.1.tar.gz",
+      "version": "1.189.1"
+    },
+    {
+      "sha1": "dce03626123f507098ef9bc5370c77cce7781894",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-cppcheck-linux_armv6l-1.188.0.tar.gz",
+      "version": "1.188.0"
+    },
+    {
+      "sha1": "98d8e6820c187a2f7cb9788deb5cc0ce5986b725",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-cppcheck-linux_x86_64-1.189.0.tar.gz",
+      "version": "1.189.0"
+    },
+    {
+      "sha1": "62dd7c57543d2e46a7e1067bdbd784c0edd0956f",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-cppcheck-windows-1.189.0.tar.gz",
+      "version": "1.189.0"
+    }
+  ],
+  "tool-dfuutil": [
+    {
+      "sha1": "6c3a19b6f35504aa85dd3eaaa0bcfc6b38930f38",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dfuutil-linux_i686-1.9.190708.tar.gz",
+      "version": "1.9.190708"
+    },
+    {
+      "sha1": "5f2eee4cdcc691319b580a5c276508be024536ab",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dfuutil-windows-1.9.190708.tar.gz",
+      "version": "1.9.190708"
+    },
+    {
+      "sha1": "e5655e6bee9ed7c1149e6bf11b4523d8e4b08f7d",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dfuutil-linux_armv6l-1.9.190708.tar.gz",
+      "version": "1.9.190708"
+    },
+    {
+      "sha1": "cbd61d8e01b9c4055936eece60871778a3d157d2",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dfuutil-linux_x86_64-1.9.190708.tar.gz",
+      "version": "1.9.190708"
+    },
+    {
+      "sha1": "5e4a929755fb4218369cbcacce1fea077efbbff1",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-dfuutil-darwin_x86_64-1.9.190708.tar.gz",
+      "version": "1.9.190708"
+    }
+  ],
+  "tool-dslite": [
+    {
+      "sha1": "672780024a459c8d9ac35875a8ad249ab58390d5",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dslite-darwin_x86_64-1.80200.1400.tar.gz",
+      "version": "1.80200.1400"
+    },
+    {
+      "sha1": "822db20c91c00371407713d531f3da1006502106",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dslite-windows-1.80200.1400.tar.gz",
+      "version": "1.80200.1400"
+    },
+    {
+      "sha1": "58fc85fe8eec28ac2ce95d37ff4835fec1ab03c5",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dslite-linux_x86_64-1.80200.1400.tar.gz",
+      "version": "1.80200.1400"
+    }
+  ],
+  "tool-dtc": [
+    {
+      "sha1": "718668c5c2ddc0ced054a306a80d247244b11992",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-dtc-darwin_x86_64-1.4.7.tar.gz",
+      "version": "1.4.7"
+    },
+    {
+      "sha1": "70d91796cb66a8bcdbcbba77f971842350fe4087",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dtc-linux_x86_64-1.4.7.tar.gz",
+      "version": "1.4.7"
+    },
+    {
+      "sha1": "00dd37848c4176e764584860e25bcaacfd130133",
+      "system": [
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-dtc-windows_amd64-1.4.7.tar.gz",
+      "version": "1.4.7"
+    }
+  ],
+  "tool-espotapy": [
+    {
+      "sha1": "d0b897825d810f381a18706bf306525c0fcb69d5",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-espotapy-1.1.3.tar.gz",
+      "version": "1.1.3"
+    },
+    {
+      "sha1": "f4ac059630561211c5beea63eb500e221a418b56",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-espotapy-1.0.0.tar.gz",
+      "version": "1.0.0"
+    }
+  ],
+  "tool-esptool": [
+    {
+      "sha1": "d2fd8e6bdd4301b662797576a14d92c0a77cbf14",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-linux_i686-1.409.0.tar.gz",
+      "version": "1.409.0"
+    },
+    {
+      "sha1": "9dbd4736b33ef481a97b72c5042badff6bdc1689",
+      "system": [
+        "freebsd_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-freebsd_amd64-1.409.0.tar.gz",
+      "version": "1.409.0"
+    },
+    {
+      "sha1": "220ecbdf958b969b60de873e552102117ba6dc4b",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-windows-1.409.0.tar.gz",
+      "version": "1.409.0"
+    },
+    {
+      "sha1": "be36294e93075f181efa65b5fc393d10161910f9",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-linux_i686-1.413.0.tar.gz",
+      "version": "1.413.0"
+    },
+    {
+      "sha1": "e45e8c942b63ef3dfab7799139d844704fb1bad0",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-windows-1.413.0.tar.gz",
+      "version": "1.413.0"
+    },
+    {
+      "sha1": "15b2771c6bf1003b25e2c93308ddd2fe9fe746e6",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-linux_x86_64-1.409.0.tar.gz",
+      "version": "1.409.0"
+    },
+    {
+      "sha1": "bdfd4890e232df1876df63c8e676b12119e89c9f",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-linux_armv6l-1.413.0.tar.gz",
+      "version": "1.413.0"
+    },
+    {
+      "sha1": "e4aefee4f2ebe89eacc6f5d66bc9b34fa16599d0",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-darwin_x86_64-1.413.0.tar.gz",
+      "version": "1.413.0"
+    },
+    {
+      "sha1": "2c10d2239c76e274b39d94a4c4e8ac8589e6e58b",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-linux_armv6l-1.409.0.tar.gz",
+      "version": "1.409.0"
+    },
+    {
+      "sha1": "9b1ba31cab2ae011e67f8a5233c4d005da98e45b",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/tool-esptool-linux_aarch64-1.413.0.tar.gz",
+      "version": "1.413.0"
+    },
+    {
+      "sha1": "c9d125e04c8f324186f344c2a42bf849ee5fb85c",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-linux_x86_64-1.413.0.tar.gz",
+      "version": "1.413.0"
+    },
+    {
+      "sha1": "b7464c04ac500f00c4ebe67065e14d410abf1d62",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-esptool-darwin_x86_64-1.409.0.tar.gz",
+      "version": "1.409.0"
+    }
+  ],
+  "tool-esptoolpy": [
+    {
+      "sha1": "998d3bbcbfe9c07f2ce2fe15f0e8d8eb0713fd38",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-esptoolpy-1.20600.0.tar.gz",
+      "version": "1.20600.0"
+    },
+    {
+      "sha1": "2293aea64815aeec9355a8bae8a0d399777a4df6",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-esptoolpy-1.20410.0.tar.gz",
+      "version": "1.20410.0"
+    },
+    {
+      "sha1": "8e1652ca3ffc1cd97d7f7e9444f59fd439ac8ff7",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-esptoolpy-1.20310.0.tar.gz",
+      "version": "1.20310.0"
+    },
+    {
+      "sha1": "085b6d3cc0d966d12a94fafec3b69cbc10f64ae5",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-esptoolpy-1.20100.0.tar.gz",
+      "version": "1.20100.0"
+    },
+    {
+      "sha1": "8361ec114bbe2c08846ca224e357b4f3d3b09927",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-esptoolpy-1.20000.0.tar.gz",
+      "version": "1.20000.0"
+    },
+    {
+      "sha1": "bd9d3dd9be3d242d0cba82652bb7432c9de0ee68",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-esptoolpy-1.20500.0.tar.gz",
+      "version": "1.20500.0"
+    },
+    {
+      "sha1": "61310cfe2847ade450bf71cc8b287d6daf38a769",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-esptoolpy-1.20800.0.tar.gz",
+      "version": "1.20800.0"
+    }
+  ],
+  "tool-gd32vflash": [
+    {
+      "sha1": "1f41de1bfbc3aea2ba68291da48d010d054e0bbb",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-gd32vflash-linux_x86_64-0.1.0.tar.gz",
+      "version": "0.1.0"
+    },
+    {
+      "sha1": "14b26bb25482bb89bb99a2a6694e243ce66cf97f",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-gd32vflash-windows-0.1.0.tar.gz",
+      "version": "0.1.0"
+    }
+  ],
+  "tool-gperf": [
+    {
+      "sha1": "0e3ec77442e083974966dd3ba1c1eb05a10e4465",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-gperf-linux_x86_64-3.0.4.tar.gz",
+      "version": "3.0.4"
+    },
+    {
+      "sha1": "6a694c7dddd4c0ab2650498a68795f78baa92a03",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-gperf-linux_i686-3.1.0.tar.gz",
+      "version": "3.1.0"
+    },
+    {
+      "sha1": "1a96b9fa7b0dc8dd43365db3772a9b1b46649894",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-gperf-darwin_x86_64-3.1.0.tar.gz",
+      "version": "3.1.0"
+    }
+  ],
+  "tool-jlink": [
+    {
+      "sha1": "68ee5642f4489856fefc5ac4187f90514ceb30e4",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-jlink-windows_x86-1.65200.0.tar.gz",
+      "version": "1.65200.0"
+    },
+    {
+      "sha1": "ec896050e58b6c74231805756c1ef0fbd461c003",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-jlink-darwin_x86_64-1.65200.0.tar.gz",
+      "version": "1.65200.0"
+    },
+    {
+      "sha1": "9eeb6d64a0b0356bc13f5959bf3929929e715b09",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-jlink-linux_x86_64-1.65200.0.tar.gz",
+      "version": "1.65200.0"
+    },
+    {
+      "sha1": "7dc47830daff38ba50909f3256e50362ba3a5273",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-jlink-linux_i686-1.65200.0.tar.gz",
+      "version": "1.65200.0"
+    }
+  ],
+  "tool-kflash-kendryte210": [
+    {
+      "sha1": "31e1e78a28e29b17e0c25bdce38c54c412f406c4",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-kflash-kendryte210-0.8.2.tar.gz",
+      "version": "0.8.2"
+    },
+    {
+      "sha1": "0dd4a04929a7a2821fcd15824bd5a24f46a06198",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-kflash-kendryte210-0.9.1.tar.gz",
+      "version": "0.9.1"
+    }
+  ],
+  "tool-linuxuploader": [
+    {
+      "sha1": "c38ab27432e611fb4933b2943e0ba7b45eebe4d9",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-linuxuploader-darwin_x86_64-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "ae2f9ab68c9a55a97974a1ffb0e343179c5418c7",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-linuxuploader-linux_i686-1.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "f678b5aad0f084554a23cdfe34a5a19347c24673",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-linuxuploader-windows-1.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "c18dc6cdd6eb1538129731b71cd970f3a1d83195",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-linuxuploader-darwin_x86_64-1.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "5f15f1c5024dc155df4e8764ea0508d1ea548d4a",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-linuxuploader-linux_x86_64-1.tar.gz",
+      "version": "1.102.0"
+    }
+  ],
+  "tool-lm4flash": [
+    {
+      "sha1": "340e8747a468da800f1c6e638daf7caa7a4ad2ba",
+      "system": [
+        "linux_i686",
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-lm4flash-linux-1.103.0.tar.gz",
+      "version": "1.103.0"
+    },
+    {
+      "sha1": "3deb10348b19e0169315c3908d818d836896b670",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-lm4flash-windows-1.103.0.tar.gz",
+      "version": "1.103.0"
+    },
+    {
+      "sha1": "91910dd071b8d150dd7b6a60e03737d79f988991",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-lm4flash-darwin_x86_64-1.103.0.tar.gz",
+      "version": "1.103.0"
+    }
+  ],
+  "tool-micronucleus": [
+    {
+      "sha1": "c9520b078b791cdca204d10f463d7c5926a172a1",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-micronucleus-windows-1.200.4.tar.gz",
+      "version": "1.200.4"
+    },
+    {
+      "sha1": "92d681ac5d7045f6666a61070f6d4a76ff39072b",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-micronucleus-linux_x86_64-1.200.4.tar.gz",
+      "version": "1.200.4"
+    },
+    {
+      "sha1": "dccc09adc1aff08c436f91924a9d8c80e54de78f",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-micronucleus-linux_armv6l-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "d398a297a5946a58e3d9ab0e9b2f6a654cb8fb51",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-micronucleus-darwin_x86_64-1.200.5.tar.gz",
+      "version": "1.200.5"
+    },
+    {
+      "sha1": "e1c8c765d99ce370ed956f12d2a53a94d313d6ce",
+      "system": [
+        "freebsd_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-micronucleus-freebsd_amd64-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "846c503f6f27bbfcb8d73ed536002ba75d9efad5",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-micronucleus-linux_i686-1.200.4.tar.gz",
+      "version": "1.200.4"
+    }
+  ],
+  "tool-mkspiffs": [
+    {
+      "sha1": "1cc93baaa9e2dcb8223f535cd31531d088b1d838",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-darwin_x86_64-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "d7c4b39431692d0ddfd300019d5e222741ed6e16",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-darwin_x86_64-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "a4243d8968f61baaa38b102b08863dc24082fad5",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-darwin_x86_64-2.230.0.tar.gz",
+      "version": "2.230.0"
+    },
+    {
+      "sha1": "591639ff7978cc35add52e661ee388a154934ee8",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-freebsd_amd64-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "dde5cfe37c083f183f6a697e361c09a94e801e61",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_x86_64-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "ce763772e2f802c788602020802151b1b803e10a",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-windows-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "3e46e68ba118a36c26006af5ac0de7b35b78c806",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_armv6l-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "7ad39a8345f6d34f62c5f8da1149a0d7cd5dae10",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_armv6l-2.230.0.tar.gz",
+      "version": "2.230.0"
+    },
+    {
+      "sha1": "bdf9dba14cc8b49b30aca599c9a1820ffdd368f1",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_i686-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "0d8e33991ee721d2628a94f38abedb8ba5df80d0",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-freebsd_amd64-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "fd165eb1fed536e3af5f5136f4c19ff396d85c88",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_armv6l-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "031488a8d0300fe55f1801e3afa5455d0a6e7051",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_i686-2.230.0.tar.gz",
+      "version": "2.230.0"
+    },
+    {
+      "sha1": "23f6ea85179949ea1fa15720016d3cbf6a715e5a",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_i686-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "780c7a3508ec05b8793e8c67c04501cb6ea04920",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-windows-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "74cae5154906a59b9a8c17128b69ed48e554e0a1",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-windows-2.230.0.tar.gz",
+      "version": "2.230.0"
+    },
+    {
+      "sha1": "12cc66ce397152fe81ed96681b9fd60e4bb93d62",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_x86_64-1.200.0.tar.gz",
+      "version": "1.200.0"
+    },
+    {
+      "sha1": "927d71939e158f2ed4b35e11a1e785e60eb25acf",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-mkspiffs-linux_x86_64-2.230.0.tar.gz",
+      "version": "2.230.0"
+    }
+  ],
+  "tool-mspdebug": [
+    {
+      "sha1": "064d56f8ec0a8db16c01129df346bc114fb2bcd9",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-mspdebug-linux_i686-1.2200.0.tar.gz",
+      "version": "1.2200.0"
+    },
+    {
+      "sha1": "456a51e6021b790aee313064cfda788a97adc290",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-mspdebug-linux_x86_64-1.2200.0.tar.gz",
+      "version": "1.2200.0"
+    },
+    {
+      "sha1": "9141ff3f93303c1f8840c669a23f936eca75fa53",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mspdebug-windows-1.2400.190926.tar.gz",
+      "version": "1.2400.190926"
+    },
+    {
+      "sha1": "388e073783121ac451db30b9ba756d1bfd2595dd",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mspdebug-darwin_x86_64-1.2200.0.tar.gz",
+      "version": "1.2200.0"
+    },
+    {
+      "sha1": "0d6cdc64a55ab92eae5786352f767e414ec0e9ab",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mspdebug-darwin_x86_64-1.2400.190926.tar.gz",
+      "version": "1.2400.190926"
+    },
+    {
+      "sha1": "0f49870e174d162e87d1bcbdd969ee190ac4f112",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mspdebug-windows-1.2200.0.tar.gz",
+      "version": "1.2200.0"
+    },
+    {
+      "sha1": "72ccd384fac7fec2aec3f973e22a6d04ec917585",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-mspdebug-linux_x86_64-1.2400.190926.tar.gz",
+      "version": "1.2400.190926"
+    }
+  ],
+  "tool-ninja": [
+    {
+      "sha1": "1714dcf82ba114b35a0c7e3ae89dd87c9109e28a",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-ninja-linux_x86_64-1.7.1.tar.gz",
+      "version": "1.7.1"
+    },
+    {
+      "sha1": "406b019e7706dc091f8bce52d88dfbdad71646b0",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-ninja-darwin_x86_64-1.9.0.tar.gz",
+      "version": "1.9.0"
+    },
+    {
+      "sha1": "dc3e4bb4f107ad19803603b9df0b663f1992d35d",
+      "system": [
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-ninja-windows_amd64-1.9.0.tar.gz",
+      "version": "1.9.0"
+    }
+  ],
+  "tool-nrfjprog": [
+    {
+      "sha1": "50b1bfa699c8d38b8cf929cbdf40c23d1dfda0df",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-nrfjprog-darwin_x86_64-1.90702.1.tar.gz",
+      "version": "1.90702.1"
+    },
+    {
+      "sha1": "57a76448a7bf92038c727d294baadc8b7b2edd12",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-nrfjprog-linux_i686-1.90702.1.tar.gz",
+      "version": "1.90702.1"
+    },
+    {
+      "sha1": "f359fa3e027542234df1c1592eb3f13088fc0f56",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-nrfjprog-linux_x86_64-1.90702.1.tar.gz",
+      "version": "1.90702.1"
+    },
+    {
+      "sha1": "aa65bb90ef7a0dedad754e907a15707593aa3046",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-nrfjprog-windows_x86-1.90702.0.tar.gz",
+      "version": "1.90702.0"
+    }
+  ],
+  "tool-openocd": [
+    {
+      "sha1": "b187257eddee43d712d4e09247b6705899143ce4",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_x86_64-2.1000.190707.tar.gz",
+      "version": "2.1000.190707"
+    },
+    {
+      "sha1": "483a7c70cf837b9e2fd77bc9b73e0a44d1f96eb0",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_i686-1.1000.6.tar.gz",
+      "version": "1.1000.6"
+    },
+    {
+      "sha1": "1f3f7f9fde214e83c599b0fac3044d9af1c372ca",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/tool-openocd-windows_x86-1.1000.6.tar.gz",
+      "version": "1.1000.6"
+    },
+    {
+      "sha1": "ea35e9620746f971913f2f0f579280ebab3fe017",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/tool-openocd-windows_x86-2.1000.190707.tar.gz",
+      "version": "2.1000.190707"
+    },
+    {
+      "sha1": "044cec508cbcd451b37cad1a1a27c6b5de8f9522",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_armv6l-2.1000.190611.tar.gz",
+      "version": "2.1000.190611"
+    },
+    {
+      "sha1": "198c4734a2359f359ee971cd616910433b0af506",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/tool-openocd-windows_amd64-1.1000.6.tar.gz",
+      "version": "1.1000.6"
+    },
+    {
+      "sha1": "f98e52bf60e6b8baec65c3354786b2b98af93717",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_i686-2.1000.190707.tar.gz",
+      "version": "2.1000.190707"
+    },
+    {
+      "sha1": "1b0382bf7025641131d0a44e7a6a10db16c7f135",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_x86_64-1.1000.6.tar.gz",
+      "version": "1.1000.6"
+    },
+    {
+      "sha1": "bd13fd241013d747f55a8b74df5a9e16ed370a01",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-darwin_x86_64-2.1000.190707.tar.gz",
+      "version": "2.1000.190707"
+    },
+    {
+      "sha1": "1518dea1ba65d6ca45f52aa7768fbe68ee0a77e8",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-darwin_x86_64-1.1000.6.tar.gz",
+      "version": "1.1000.6"
+    },
+    {
+      "sha1": "73ea21bd32e59b2e20b082e0cb12484814d6629d",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_x86_64-1.900.2.tar.gz",
+      "version": "1.900.2"
+    },
+    {
+      "sha1": "088fb5ff3e89a44e15a622dcb645440ecce1542e",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-darwin_x86_64-1.900.2.tar.gz",
+      "version": "1.900.2"
+    },
+    {
+      "sha1": "6ecd69f149fa6563890acc4cd431c989b3be2716",
+      "system": [
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_armv7l-1.900.2.tar.gz",
+      "version": "1.900.2"
+    },
+    {
+      "sha1": "4f4d6414a9fb7e7a7fdb5f8d8e96f02e4f019ea3",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_i686-1.900.2.tar.gz",
+      "version": "1.900.2"
+    },
+    {
+      "sha1": "94ab4a7192ac3d553d376e824d3ea74926192075",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-windows-1.900.2.tar.gz",
+      "version": "1.900.2"
+    },
+    {
+      "sha1": "886c362d04961003c6f83423d82407d656878b7f",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/tool-openocd-windows_amd64-2.1000.190707.tar.gz",
+      "version": "2.1000.190707"
+    },
+    {
+      "sha1": "9e6b493a7626f5fa5540006018b1f5db948edf6f",
+      "system": [
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-linux_armv7l-1.1000.4.tar.gz",
+      "version": "1.1000.4"
+    }
+  ],
+  "tool-openocd-esp32": [
+    {
+      "sha1": "d6b73936073346d85dfd4ae541057b4aa6a42c7d",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-openocd-esp32-darwin_x86_64-1.1000.20190708.tar.gz",
+      "version": "1.1000.20190708"
+    },
+    {
+      "sha1": "428b90b221767ba1de9826363530e8dabd6d5f1e",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-esp32-windows_x86-1.1000.20190708.tar.gz",
+      "version": "1.1000.20190708"
+    },
+    {
+      "sha1": "ad554778e0938fa83dda1e9594670963789d93bd",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-openocd-esp32-linux_x86_64-1.1000.20190708.tar.gz",
+      "version": "1.1000.20190708"
+    },
+    {
+      "sha1": "37f21aff825ea9dc6bedbd4d2ca79b1c6cdb4b7a",
+      "system": [
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-esp32-linux_armv7l-1.1000.20190708.tar.gz",
+      "version": "1.1000.20190708"
+    }
+  ],
+  "tool-openocd-gd32v": [
+    {
+      "sha1": "739ebe108282313d9d92cd8c222bfa4a29882846",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-openocd-gd32v-linux_x86_64-0.1.1.tar.gz",
+      "version": "0.1.1"
+    },
+    {
+      "sha1": "c2f7039449085a9e01aa2868593399de2f80fa02",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-gd32v-windows_x86-0.1.1.tar.gz",
+      "version": "0.1.1"
+    }
+  ],
+  "tool-openocd-kendryte": [
+    {
+      "sha1": "63a94bf7bed4edc9701553ebe4600baeb1c204ad",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-openocd-kendryte-darwin_x86_64-1.203.1.tar.gz",
+      "version": "1.203.1"
+    },
+    {
+      "sha1": "f1c305fd1ba0accf76317259a1d89cb48248c012",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-kendryte-windows_x86-1.203.1.tar.gz",
+      "version": "1.203.1"
+    },
+    {
+      "sha1": "9838a3b2b44bf15a7cf0474a27a79bc946d8aa24",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-openocd-kendryte-linux_x86_64-1.203.1.tar.gz",
+      "version": "1.203.1"
+    }
+  ],
+  "tool-openocd-riscv": [
+    {
+      "sha1": "1709b12bbc2409e6e5cffdaaaedebc16c291a1be",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-riscv-linux_x86_64-2.1000.20190927.tar.gz",
+      "version": "2.1000.20190927"
+    },
+    {
+      "sha1": "c315f0c4b8cffdf5d1a282795f875c1e4bb88c22",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-riscv-windows_x86-2.1000.20190927.tar.gz",
+      "version": "2.1000.20190927"
+    },
+    {
+      "sha1": "70aae74541830eb097df64d2989caa815bcb7dc9",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-openocd-riscv-darwin_x86_64-2.1000.20190927.tar.gz",
+      "version": "2.1000.20190927"
+    }
+  ],
+  "tool-pic32prog": [
+    {
+      "sha1": "2329198d9b44b5269ac85f612b61a67c6cefc8b5",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-windows-2.20146.0.tar.gz",
+      "version": "2.20146.0"
+    },
+    {
+      "sha1": "08a9b4c265eb05e0bcd2f74ee3ccc3a2f4676aab",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-windows-2.20104.0.tar.gz",
+      "version": "2.20104.0"
+    },
+    {
+      "sha1": "84542a577f975306d22d63efbe54c51855a07d13",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-linux_x86_64-2.20104.0.tar.gz",
+      "version": "2.20104.0"
+    },
+    {
+      "sha1": "50b382db8ce7315f2da212fd1bb8eb2374b0a718",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-linux_x86_64-2.20146.0.tar.gz",
+      "version": "2.20146.0"
+    },
+    {
+      "sha1": "7dd2a03ddda03fba4ee97885af5fb216a1c372b6",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-linux_i686-2.20146.0.tar.gz",
+      "version": "2.20146.0"
+    },
+    {
+      "sha1": "af7d9de158ba066614c219e98474fcdf3e6b2653",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-linux_i686-2.20104.0.tar.gz",
+      "version": "2.20104.0"
+    },
+    {
+      "sha1": "af96343035de42aca84428e5cadfb1889bb645d6",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-linux_armv6l-2.20146.0.tar.gz",
+      "version": "2.20146.0"
+    },
+    {
+      "sha1": "54d5c172f9852b33e9366d8e4ed662daf4f25be4",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-linux_armv6l-2.20104.0.tar.gz",
+      "version": "2.20104.0"
+    },
+    {
+      "sha1": "7c660f64d006e1e93550b79435ef168c57e1be6d",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-darwin_x86_64-2.20104.0.tar.gz",
+      "version": "2.20104.0"
+    },
+    {
+      "sha1": "13d2f9bf16655f42e98cfd38486568432e8d1f5b",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pic32prog-darwin_x86_64-2.20146.0.tar.gz",
+      "version": "2.20146.0"
+    }
+  ],
+  "tool-pioplus": [
+    {
+      "sha1": "bad382fbee029f1d684c3678a6126b306301fce2",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/tool-pioplus-freebsd_amd64-2.6.1.tar.gz",
+      "version": "2.6.1"
+    },
+    {
+      "sha1": "fde9a0e575aa24f7455412879147d00fc737e7dd",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-pioplus-darwin_x86_64-2.6.1.tar.gz",
+      "version": "2.6.1"
+    },
+    {
+      "sha1": "6eb0d1d8d0f530ed488ef7181bb556be4170aec8",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/tool-pioplus-linux_aarch64-2.6.1.tar.gz",
+      "version": "2.6.1"
+    },
+    {
+      "sha1": "a9ab14422eb290b9786b5642a26095813f049ea7",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-pioplus-linux_i686-2.6.1.tar.gz",
+      "version": "2.6.1"
+    },
+    {
+      "sha1": "80055cd347174dda3323926b94b587f78a7c14db",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/tool-pioplus-windows_x86-2.6.1.tar.gz",
+      "version": "2.6.1"
+    },
+    {
+      "sha1": "28a5bd7ed8117e0aacde53775817b9bda4102c16",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-pioplus-linux_x86_64-2.6.1.tar.gz",
+      "version": "2.6.1"
+    },
+    {
+      "sha1": "545c668bb992790eb642a6443366cd47779d2b0e",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/tool-pioplus-windows_amd64-2.6.1.tar.gz",
+      "version": "2.6.1"
+    },
+    {
+      "sha1": "53756c61004dfc02a984484466e2715b8e8e8b38",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pioplus-linux_armv6l-2.6.1.tar.gz",
+      "version": "2.6.1"
+    }
+  ],
+  "tool-pulp_tools": [
+    {
+      "sha1": "bb979999b80ab299dc7cd94fbfdd1578e4a07a13",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-pulp_tools-linux_x86_64-0.1.181108.tar.gz",
+      "version": "0.1.181108"
+    },
+    {
+      "sha1": "48a4f58f6217dc498f7e11b428924a3ca1aaace6",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/tool-pulp_tools-windows_amd64-0.1.181108.tar.gz",
+      "version": "0.1.181108"
+    },
+    {
+      "sha1": "bfc8bdd6b9d928b04a73ab14d67d181322fba7e6",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pulp_tools-darwin_x86_64-0.1.181108.tar.gz",
+      "version": "0.1.181108"
+    }
+  ],
+  "tool-pvs-studio": [
+    {
+      "sha1": "5c2d0d0b5ffa9fb98984df53eb33d40394fb183e",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pvs-studio-linux_x86_64-7.5.35582.tar.gz",
+      "version": "7.5.35582"
+    },
+    {
+      "sha1": "42d4baf440d59bc715ad022e7d9be6587f672471",
+      "system": [
+        "windows",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pvs-studio-windows-7.5.35617.tar.gz",
+      "version": "7.5.35617"
+    },
+    {
+      "sha1": "7f6d49434321888299e6ad696a40d3fbffb8fcd0",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pvs-studio-darwin_x86_64-7.5.35582.tar.gz",
+      "version": "7.5.35582"
+    }
+  ],
+  "tool-pyocd": [
+    {
+      "sha1": "434799022adcc22786880af9cf7ee6233a26e75e",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-pyocd-linux_x86_64-0.801.0.tar.gz",
+      "version": "0.801.0"
+    },
+    {
+      "sha1": "0e88ed00c11b7b1aa323994337a5072242fc803b",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/tool-pyocd-freebsd_amd64-0.801.0.tar.gz",
+      "version": "0.801.0"
+    },
+    {
+      "sha1": "0d9ac615dfb951d7e70541f62b8f73965d647d2c",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pyocd-linux_armv6l-0.801.0.tar.gz",
+      "version": "0.801.0"
+    },
+    {
+      "sha1": "438c0acfba3b2b1088ab7e0e49f6d0add2d49f4e",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/tool-pyocd-windows_amd64-0.801.0.tar.gz",
+      "version": "0.801.0"
+    },
+    {
+      "sha1": "e6a25caaf621e60dd1bed9795ea2776b568104d2",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-pyocd-darwin_x86_64-0.801.0.tar.gz",
+      "version": "0.801.0"
+    },
+    {
+      "sha1": "93ea985a4d4754864b4363151e24b7aa22dc0a04",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/tool-pyocd-windows_x86-0.801.0.tar.gz",
+      "version": "0.801.0"
+    },
+    {
+      "sha1": "59f243dcf70dfd99a09343427fc37efb0406908c",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-pyocd-linux_i686-0.801.0.tar.gz",
+      "version": "0.801.0"
+    }
+  ],
+  "tool-qemu-riscv": [
+    {
+      "sha1": "d6a2b65bd3d32696882d4c3cc66a1871812d8758",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-qemu-riscv-windows-1.30100.190627.tar.gz",
+      "version": "1.30100.190627"
+    },
+    {
+      "sha1": "47aea5a7a62c61529eaf4fdb7c4921331b3b64b0",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-qemu-riscv-linux_x86_64-1.30100.190627.tar.gz",
+      "version": "1.30100.190627"
+    },
+    {
+      "sha1": "ab65a04c9e202c8067053978e5d1791dd504e7d6",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-qemu-riscv-darwin_x86_64-1.30100.190627.tar.gz",
+      "version": "1.30100.190627"
+    },
+    {
+      "sha1": "d9dc4a841668b05018257f603b09f69230677f32",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-qemu-riscv-windows-1.40100.190927.tar.gz",
+      "version": "1.40100.190927"
+    },
+    {
+      "sha1": "a51c2c51f96a520bda7667b566c54e71cea86947",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-qemu-riscv-linux_x86_64-1.40100.190927.tar.gz",
+      "version": "1.40100.190927"
+    },
+    {
+      "sha1": "c56830c90f2dc74225200819320c4eeb7342094e",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-qemu-riscv-darwin_x86_64-1.40100.190927.tar.gz",
+      "version": "1.40100.190927"
+    }
+  ],
+  "tool-rfdloader": [
+    {
+      "sha1": "92fd7b5db28ccbbe0601d141e17fe13d9c1ef8b0",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-rfdloader-linux_i686-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "779df0c0b049fe5a91203ebb73593e9c8f61fab3",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-rfdloader-linux_armv6l-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "9db6868712a89c1bd37865d5d42eaa66e495d596",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-rfdloader-darwin_x86_64-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "27b7a271725b00a0f795914b3a393b0ee408e54f",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-rfdloader-linux_x86_64-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "32033a5a585db1be953ac82e3f3af84a368e2003",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-rfdloader-windows-1.1.0.tar.gz",
+      "version": "1.1.0"
+    }
+  ],
+  "tool-scons": [
+    {
+      "sha1": "d7e97d5411ff38abb887cce16739979e7c50a071",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-scons-2.20501.191222.tar.gz",
+      "version": "2.20501.191222"
+    },
+    {
+      "sha1": "30254ff611e0bb08f4f8fdf2bbaff965def6e867",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-scons-3.30101.0.tar.gz",
+      "version": "3.30101.0"
+    },
+    {
+      "sha1": "cc4cbc483e708147a2c11d9713dc3f82968b8161",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-scons-3.30005.190826.tar.gz",
+      "version": "3.30005.190826"
+    },
+    {
+      "sha1": "5efcabb4eb34a3263896c5b961eaf55905b12d21",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-scons-3.30102.0.tar.gz",
+      "version": "3.30102.0"
+    }
+  ],
+  "tool-sreccat": [
+    {
+      "sha1": "a6ad8734645debb833607ce0368301b89ecc1926",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-sreccat-linux_armv6l-1.164.0.tar.gz",
+      "version": "1.164.0"
+    },
+    {
+      "sha1": "aafe33c38c489a78bd648d9bde925ef4da67b031",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-sreccat-darwin_x86_64-1.164.0.tar.gz",
+      "version": "1.164.0"
+    },
+    {
+      "sha1": "e4ab56073efb7f4e7b357c010193bf231fa8f1ac",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-sreccat-linux_x86_64-1.164.0.tar.gz",
+      "version": "1.164.0"
+    },
+    {
+      "sha1": "86d770e945fe3a5dde9dff7d5291070ddf88f87d",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-sreccat-windows-1.164.0.tar.gz",
+      "version": "1.164.0"
+    },
+    {
+      "sha1": "5bc4aae3c9591bf07bd99615901ffeaeb4b13481",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-sreccat-linux_i686-1.164.0.tar.gz",
+      "version": "1.164.0"
+    }
+  ],
+  "tool-stcgal": [
+    {
+      "sha1": "5484918a6b691103fed02de07d15c5fbc811a9fe",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-stcgal-1.104.0.tar.gz",
+      "version": "1.104.0"
+    }
+  ],
+  "tool-stlink": [
+    {
+      "sha1": "51031318d4c1579a297447849a0b7ed80f062864",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_armv6l-1.10301.0.tar.gz",
+      "version": "1.10301.0"
+    },
+    {
+      "sha1": "91fe43164ce31edc6cf21121d65c32061eabcd7e",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_i686-1.10400.0.tar.gz",
+      "version": "1.10400.0"
+    },
+    {
+      "sha1": "3f0dc828cc1590d1bc1c773114419a497a4dc55d",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-darwin_x86_64-1.10400.0.tar.gz",
+      "version": "1.10400.0"
+    },
+    {
+      "sha1": "25b01ce0d4825a112cb1b1fa2dbc4de59656f825",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_x86_64-1.10200.0.tar.gz",
+      "version": "1.10200.0"
+    },
+    {
+      "sha1": "a2d512419479009702e81d7de34010399c270d84",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_x86_64-1.10301.1.tar.gz",
+      "version": "1.10301.1"
+    },
+    {
+      "sha1": "bcc514f09dfe8fc012dcae3d4170b9bd0441d34d",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/tool-stlink-windows_amd64-1.10400.0.tar.gz",
+      "version": "1.10400.0"
+    },
+    {
+      "sha1": "636fbab0d8cb40dc87cf5be70a4d5a96c2a15de7",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_armv6l-1.10400.0.tar.gz",
+      "version": "1.10400.0"
+    },
+    {
+      "sha1": "ceac11c6bb5a9a366c5ca87bf986d540e1842ac5",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_armv6l-1.10200.0.tar.gz",
+      "version": "1.10200.0"
+    },
+    {
+      "sha1": "7d04188a59e807d15f61f59c6818393083f0315a",
+      "system": [
+        "windows",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-windows-1.10400.0.tar.gz",
+      "version": "1.10400.0"
+    },
+    {
+      "sha1": "dfc53c39d10254013def26a6822490e965915e23",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-windows-1.10301.0.tar.gz",
+      "version": "1.10301.0"
+    },
+    {
+      "sha1": "28357a1d7e9defa7bdad5fb3472415d8c31b07be",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-darwin_x86_64-1.10200.0.tar.gz",
+      "version": "1.10200.0"
+    },
+    {
+      "sha1": "90c24db1d94b7555af7efff513effe60122cd302",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_x86_64-1.10400.0.tar.gz",
+      "version": "1.10400.0"
+    },
+    {
+      "sha1": "4584cdbb4bfc9323b975a8a92980959058bc81ad",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_i686-1.10200.0.tar.gz",
+      "version": "1.10200.0"
+    },
+    {
+      "sha1": "d2cf8158ea91e503d9c34578d1737d165de012a3",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-stlink-linux_i686-1.10301.1.tar.gz",
+      "version": "1.10301.1"
+    },
+    {
+      "sha1": "ed1d1d42dc3d0141311956b89b9716d8eb33acd9",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-darwin_x86_64-1.10301.1.tar.gz",
+      "version": "1.10301.1"
+    },
+    {
+      "sha1": "79187839584ce0d585791ffb124af59c95c9bc34",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stlink-windows-1.10200.1.tar.gz",
+      "version": "1.10200.1"
+    }
+  ],
+  "tool-stm32duino": [
+    {
+      "sha1": "373e5a3dc716362845501d254aac93e84a2dcbc4",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm32duino-windows-1.0.1.tar.gz",
+      "version": "1.0.1"
+    },
+    {
+      "sha1": "d7d96b7fc9d454cc3ff102248bea89ba05fb5778",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm32duino-linux_armv6l-1.0.1.tar.gz",
+      "version": "1.0.1"
+    },
+    {
+      "sha1": "83b0a0885b4e31da79a352ea39193136c17f4fc1",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm32duino-linux_i686-1.0.1.tar.gz",
+      "version": "1.0.1"
+    },
+    {
+      "sha1": "ea4f196bfb4bbdd7cd610b047c16a60b1f5ba4c5",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm32duino-darwin_x86_64-1.0.1.tar.gz",
+      "version": "1.0.1"
+    },
+    {
+      "sha1": "bebcc6577d962c8ea8830ece8cf5ea844dd141b5",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm32duino-windows-1.0.2.tar.gz",
+      "version": "1.0.2"
+    },
+    {
+      "sha1": "874dd34a69872e8b0c42dd3fd5a00d17a8ba56b9",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm32duino-linux_x86_64-1.0.1.tar.gz",
+      "version": "1.0.1"
+    }
+  ],
+  "tool-stm8binutils": [
+    {
+      "sha1": "8a57714cf989b878867b4cb383521cdaaffcc034",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm8binutils-darwin_x86_64-0.230.0.tar.gz",
+      "version": "0.230.0"
+    },
+    {
+      "sha1": "33e4dd7b3ca5322cf50f2de15829f30346c277a0",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/tool-stm8binutils-windows_amd64-0.230.0.tar.gz",
+      "version": "0.230.0"
+    },
+    {
+      "sha1": "aba627da59aabbb02c2260c849221b2b96b2ea3a",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-stm8binutils-linux_x86_64-0.230.0.tar.gz",
+      "version": "0.230.0"
+    },
+    {
+      "sha1": "ea417cd618f648b74ef832ba8188957c3e8b429c",
+      "system": [
+        "windows",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm8binutils-windows-0.230.0.tar.gz",
+      "version": "0.230.0"
+    },
+    {
+      "sha1": "0798362448b9a013357edd0f6b63c33e1bcfbbec",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-stm8binutils-linux_i686-0.230.0.tar.gz",
+      "version": "0.230.0"
+    }
+  ],
+  "tool-stm8tools": [
+    {
+      "sha1": "a930a2034dad5beb3becf2305d7b8ce652efcfb1",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm8tools-linux_i686-0.40.181218.tar.gz",
+      "version": "0.40.181218"
+    },
+    {
+      "sha1": "e982bd0196e035a774f195dbd83e62d734b0d742",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm8tools-linux_x86_64-0.40.181218.tar.gz",
+      "version": "0.40.181218"
+    },
+    {
+      "sha1": "434b1105ebc50d1d1612f97e47a0b4a6bd7583d9",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm8tools-windows-0.40.181218.tar.gz",
+      "version": "0.40.181218"
+    },
+    {
+      "sha1": "c9183e5acbf73657ee4d548eaf7a3c0921557d31",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-stm8tools-darwin_x86_64-0.40.181218.tar.gz",
+      "version": "0.40.181218"
+    }
+  ],
+  "tool-teensy": [
+    {
+      "sha1": "f1bc475d3e1155082028b69b335e554268be67e6",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-windows-1.3.0.tar.gz",
+      "version": "1.3.0"
+    },
+    {
+      "sha1": "715ea0d0fd581035ac8d68730d78751d62554e79",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-windows-1.21.0.tar.gz",
+      "version": "1.21.0"
+    },
+    {
+      "sha1": "6f23723a195b7dca2ce91e6562a55a915147f675",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_i686-1.148.191118.tar.gz",
+      "version": "1.148.191118"
+    },
+    {
+      "sha1": "cc0502870ade17f90a2f60d605f89a422d86a3a2",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_armv6l-1.21.1.tar.gz",
+      "version": "1.21.1"
+    },
+    {
+      "sha1": "fc3df77cfdcda9482c2e7412e0961d035c98e5a2",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_x86_64-1.148.191118.tar.gz",
+      "version": "1.148.191118"
+    },
+    {
+      "sha1": "b945edbd91c668f94555e62d5085031b66d3a3f6",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-windows-1.148.191118.tar.gz",
+      "version": "1.148.191118"
+    },
+    {
+      "sha1": "5ca2ba577f4587ab362e1d0c167e5b3c8a1eba7b",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_i686-1.3.0.tar.gz",
+      "version": "1.3.0"
+    },
+    {
+      "sha1": "b26d6577c4bcd8895aab6663f02741fb1444961a",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_x86_64-1.3.0.tar.gz",
+      "version": "1.3.0"
+    },
+    {
+      "sha1": "29e7773925bae4e542da71a379346e0f2f740c1e",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-darwin_x86_64-1.21.0.tar.gz",
+      "version": "1.21.0"
+    },
+    {
+      "sha1": "9e6a8050944cf1cbe9925283cd920d2900c3edd3",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_i686-1.21.0.tar.gz",
+      "version": "1.21.0"
+    },
+    {
+      "sha1": "812c84e1391d3f3cb47af64104d4fab8c9efb24e",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-darwin_x86_64-1.3.0.tar.gz",
+      "version": "1.3.0"
+    },
+    {
+      "sha1": "a1bfe5891257fb0bb386cc9b5c1ab9af64af0f42",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_armv6l-1.3.0.tar.gz",
+      "version": "1.3.0"
+    },
+    {
+      "sha1": "4aa6be9960e327470edb0c1658e5a5298ecdb052",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_x86_64-1.21.0.tar.gz",
+      "version": "1.21.0"
+    },
+    {
+      "sha1": "b5aafe0e50cb33a1f2411836e093a87c95234cda",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/tool-teensy-darwin_x86_64-1.148.0.tar.gz",
+      "version": "1.148.0"
+    }
+  ],
+  "tool-unity": [
+    {
+      "sha1": "eca7e12a54ff48444cc5dafebfec34f5fcca8af1",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-unity-1.20403.0.tar.gz",
+      "version": "1.20403.0"
+    },
+    {
+      "sha1": "442eee1413e4b7c111560b2d837c5befa0d61d3e",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/tool-unity-1.20302.1.tar.gz",
+      "version": "1.20302.1"
+    }
+  ],
+  "toolchain-atmelavr": [
+    {
+      "sha1": "f399bb9222d53f826c6c9c2dc7be488cc6b82421",
+      "system": [
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_aarch64-1.70300.191015.tar.gz",
+      "version": "1.70300.191015"
+    },
+    {
+      "sha1": "7b9ba21744c4aca34f882aeae529c7055a29de6c",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_i686-1.40801.0.tar.gz",
+      "version": "1.40801.0"
+    },
+    {
+      "sha1": "764952e6cb14fdca8a610a985ce76f7e280c1fcb",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_i686-1.40902.0.tar.gz",
+      "version": "1.40902.0"
+    },
+    {
+      "sha1": "4946a20aa51344e58fb76d8b9ffece36bd0319ad",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_x86_64-1.50400.190710.tar.gz",
+      "version": "1.50400.190710"
+    },
+    {
+      "sha1": "e49768f0003e1c524e7c632549ea6812731c9b44",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-windows-1.40902.1.tar.gz",
+      "version": "1.40902.1"
+    },
+    {
+      "sha1": "fc15795a88728bea05758d9cbda53dba1a29e2ae",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-windows-1.70300.191015.tar.gz",
+      "version": "1.70300.191015"
+    },
+    {
+      "sha1": "311a6122870cd1d38112004dc2c8ef836f051a1e",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_x86_64-1.40902.0.tar.gz",
+      "version": "1.40902.0"
+    },
+    {
+      "sha1": "a12205d6f24828ec2e6a1c3b603e4586ccd98d13",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-darwin_x86_64-1.40801.0.tar.gz",
+      "version": "1.40801.0"
+    },
+    {
+      "sha1": "43cbce4a8d200c80017335464f47c83e79f5c929",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_armv6l-1.70300.191015.tar.gz",
+      "version": "1.70300.191015"
+    },
+    {
+      "sha1": "7652285aa62ec581d08edf5d619d16f48a265412",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_x86_64-1.40801.0.tar.gz",
+      "version": "1.40801.0"
+    },
+    {
+      "sha1": "e0346f50d40439df67b81a7fcf08d8ba072a7adb",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_i686-1.50400.190710.tar.gz",
+      "version": "1.50400.190710"
+    },
+    {
+      "sha1": "706efe469b40b783597649210c9dc994de76ea70",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-darwin_x86_64-1.40902.0.tar.gz",
+      "version": "1.40902.0"
+    },
+    {
+      "sha1": "7106ef823d11105cd8fbf6f4b02cd1af2ec8d07b",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-darwin_x86_64-1.70300.191015.tar.gz",
+      "version": "1.70300.191015"
+    },
+    {
+      "sha1": "217348d27a4d7fe631c5717719f9152e07b6c89d",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_x86_64-1.70300.191015.tar.gz",
+      "version": "1.70300.191015"
+    },
+    {
+      "sha1": "0096a969bee0b444aacc1ee81220e68ebda25e29",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_aarch64-1.50400.190710.tar.gz",
+      "version": "1.50400.190710"
+    },
+    {
+      "sha1": "0b7a084353f12b9332f75ed64af4aeabde31a95e",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-windows-1.40801.0.tar.gz",
+      "version": "1.40801.0"
+    },
+    {
+      "sha1": "aee00419456d1167e23d0a49e7f24e7f40a675ca",
+      "system": "freebsd_amd64",
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-freebsd_amd64-1.40902.0.tar.gz",
+      "version": "1.40902.0"
+    },
+    {
+      "sha1": "684eae2820fdfc33ee24187d9202db7dd7daadcf",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_armv6l-1.40801.0.tar.gz",
+      "version": "1.40801.0"
+    },
+    {
+      "sha1": "04158ac5311cc9253cda6f4444eaf0d5b2dc9549",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-darwin_x86_64-1.50400.190710.tar.gz",
+      "version": "1.50400.190710"
+    },
+    {
+      "sha1": "723ecccfffabcc69b6a8a60494c8ded7fb23b832",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_i686-1.70300.191015.tar.gz",
+      "version": "1.70300.191015"
+    },
+    {
+      "sha1": "9124dee12aca7ce9c75584ac2130f34fe76ded8c",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_armv6l-1.40902.0.tar.gz",
+      "version": "1.40902.0"
+    },
+    {
+      "sha1": "f0e427a820cd3866dd54fc03916ddff0e4f4089f",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-linux_armv6l-1.50400.190710.tar.gz",
+      "version": "1.50400.190710"
+    },
+    {
+      "sha1": "c6962d5ab2e3f6e06ee91a9b3a37b35a9030081a",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-atmelavr-windows-1.50400.190710.tar.gz",
+      "version": "1.50400.190710"
+    }
+  ],
+  "toolchain-esp32ulp": [
+    {
+      "sha1": "79b1411eb8c7399401121cbce54f952553d6e47d",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-esp32ulp-darwin_x86_64-1.22851.190618.tar.gz",
+      "version": "1.22851.190618"
+    },
+    {
+      "sha1": "14f939a9cdaf3f3200925ad9b11a224b0c5513ed",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-esp32ulp-windows-1.22851.190618.tar.gz",
+      "version": "1.22851.190618"
+    },
+    {
+      "sha1": "6a10fe9fcd2668c472add6b60a39821c7c1ffadb",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-esp32ulp-linux_x86_64-1.22851.190618.tar.gz",
+      "version": "1.22851.190618"
+    }
+  ],
+  "toolchain-gccarma8gnueabihf": [
+    {
+      "sha1": "d5c1c610c7a38c48550604b1fb6971e4021c6e06",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarma8gnueabihf-windows-1.tar.gz",
+      "version": "1.40904.0"
+    },
+    {
+      "sha1": "4583b5a69dd81d9af9fac154a48c3fd18ddcf6ff",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarma8gnueabihf-linux_x86_64-1.tar.gz",
+      "version": "1.40904.0"
+    },
+    {
+      "sha1": "4c1f5688d95c3875273e7cd84af8db578f240790",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarma8gnueabihf-darwin_x86_64-1.tar.gz",
+      "version": "1.40904.0"
+    },
+    {
+      "sha1": "4850ab9c41213968ee63a746fa0b6aca842001d2",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarma8gnueabihf-linux_i686-1.tar.gz",
+      "version": "1.40904.0"
+    }
+  ],
+  "toolchain-gccarmlinuxgnueabi": [
+    {
+      "sha1": "4606ce747ee2a59497e4859e6b22fce0c6df5904",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmlinuxgnueabi-darwin_x86_64-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    }
+  ],
+  "toolchain-gccarmnoneeabi": [
+    {
+      "sha1": "127b7fd8b06a30074e0f7b0da1d02ff40ea203fc",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.80201.181220.tar.gz",
+      "version": "1.80201.181220"
+    },
+    {
+      "sha1": "d44f12945e5b50b3535893196efabcfaf1d911fa",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_x86_64-1.60301.0.tar.gz",
+      "version": "1.60301.0"
+    },
+    {
+      "sha1": "4359e44c696033e5345b8b20ed126f665292a649",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows_amd64-1.80201.190214.tar.gz",
+      "version": "1.80201.190214"
+    },
+    {
+      "sha1": "65cd0928e8c4c767b4c84d4f65ee6c7ef75a4129",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_armv6l-1.50401.0.tar.gz",
+      "version": "1.50401.0"
+    },
+    {
+      "sha1": "1d474e6a622cd6d3ce2d58cd7c6500f81ef199c4",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_armv6l-1.70201.0.tar.gz",
+      "version": "1.70201.0"
+    },
+    {
+      "sha1": "ce8330f751a2bf904d2d2f4b9bdc9bc20e7e2ac5",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.40804.0.tar.gz",
+      "version": "1.40804.0"
+    },
+    {
+      "sha1": "4577581dc7080514f5a4acc8b92c28b68b8af215",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows_x86-1.50201.0.tar.gz",
+      "version": "1.50201.0"
+    },
+    {
+      "sha1": "1752753793beb56c121f1733db3f7213637afbb2",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_armv6l-1.40803.0.tar.gz",
+      "version": "1.40803.0"
+    },
+    {
+      "sha1": "d8a0bae5384a4e9099a1495254138aaf2c19afaa",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows-1.60301.0.tar.gz",
+      "version": "1.60301.0"
+    },
+    {
+      "sha1": "5f4162b15e93f6eeb897a0f44113a1accf759f74",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_i686-1.40804.0.tar.gz",
+      "version": "1.40804.0"
+    },
+    {
+      "sha1": "e4ad8c7b3a751a759e5a5a33b63e68ecb6ea3d3d",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows_x86-1.80201.190214.tar.gz",
+      "version": "1.80201.190214"
+    },
+    {
+      "sha1": "62b2aa42af2458afbee7e2195db2ca37b4a0e019",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_aarch64-1.50401.1.tar.gz",
+      "version": "1.50401.1"
+    },
+    {
+      "sha1": "da58aa983a85d0bade9559a7f059f824bf8555c6",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.70201.0.tar.gz",
+      "version": "1.70201.0"
+    },
+    {
+      "sha1": "0d604e9a397bf408d2cbcbcbb0a604a51f388695",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.50401.190816.tar.gz",
+      "version": "1.50401.190816"
+    },
+    {
+      "sha1": "68839b95739fec2040241932e20febc16dde8eee",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_i686-1.50401.190816.tar.gz",
+      "version": "1.50401.190816"
+    },
+    {
+      "sha1": "f4d7d2fd4bd95c62a26f47d6041644c033ee2eb8",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_x86_64-1.50401.190816.tar.gz",
+      "version": "1.50401.190816"
+    },
+    {
+      "sha1": "b3fc8f1352c6fa76421b2a7df726fa63a0e0b7d3",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_x86_64-1.70201.0.tar.gz",
+      "version": "1.70201.0"
+    },
+    {
+      "sha1": "28bb46a8ae7212179198a0104e9d00db6e14253d",
+      "system": [
+        "linux_i686",
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_i686-1.50201.0.tar.gz",
+      "version": "1.50201.0"
+    },
+    {
+      "sha1": "804521cce34ed97b36f8c6b74445b72ae1ad4193",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.50201.0.tar.gz",
+      "version": "1.50201.0"
+    },
+    {
+      "sha1": "0e4b61c1304a12ea5df9a894a918d35b33201a77",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz",
+      "version": "1.70201.0"
+    },
+    {
+      "sha1": "df2bc781a8ccdb93b26a95e776c632ba1e7ebe66",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_i686-1.60301.0.tar.gz",
+      "version": "1.60301.0"
+    },
+    {
+      "sha1": "41a1de778ccc799e06ac97b08cff9045afb83522",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows-1.40804.0.tar.gz",
+      "version": "1.40804.0"
+    },
+    {
+      "sha1": "f8d57a0a48c097eb7a792224363dc84b65c5af83",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.60301.0.tar.gz",
+      "version": "1.60301.0"
+    },
+    {
+      "sha1": "a7db7f3f3b634b4c72dd96eb012085fbfa1518c6",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-windows-1.50401.190816.tar.gz",
+      "version": "1.50401.190816"
+    },
+    {
+      "sha1": "3d11f454954df6bc566319d8d7800255b144fa92",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_x86_64-1.40804.0.tar.gz",
+      "version": "1.40804.0"
+    },
+    {
+      "sha1": "2d2c607fe55b6992f45d046270075a71fa43b2f0",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_x86_64-1.80201.181220.tar.gz",
+      "version": "1.80201.181220"
+    }
+  ],
+  "toolchain-gcclinux32": [
+    {
+      "sha1": "7b74b09df7a34cb08a1077ef85aaa0dc9ee55d52",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gcclinux32-darwin_x86_64-1.40801.0.tar.gz",
+      "version": "1.40801.0"
+    }
+  ],
+  "toolchain-gcclinux64": [
+    {
+      "sha1": "682e4bdb56be86d54d5810fb86b6e977537571b2",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gcclinux64-darwin_x86_64-1.40801.0.tar.gz",
+      "version": "1.40801.0"
+    }
+  ],
+  "toolchain-gccmingw32": [
+    {
+      "sha1": "900211855b0150c09d4693515d6c70f3fc9f46e2",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccmingw32-darwin_x86_64-1.40800.0.tar.gz",
+      "version": "1.40800.0"
+    },
+    {
+      "sha1": "cd2f7172ab4adfed9fd740313edc79afd686aefa",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccmingw32-linux_x86_64-1.40900.0.tar.gz",
+      "version": "1.40900.0"
+    },
+    {
+      "sha1": "aa852051962dae9d6666f1390fbbfd02f20fa9df",
+      "system": [
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccmingw32-windows_x86-1.50100.0.tar.gz",
+      "version": "1.50100.0"
+    },
+    {
+      "sha1": "29d04b406fc46b91e78b48d9a7ba11056880250e",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gccmingw32-linux_i686-1.40901.0.tar.gz",
+      "version": "1.40901.0"
+    }
+  ],
+  "toolchain-gd32v": [
+    {
+      "sha1": "a0012f8cb070b18b2b0077b081532ac0057519d9",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-gd32v-linux_x86_64-9.2.0.tar.gz",
+      "version": "9.2.0"
+    },
+    {
+      "sha1": "1b62ac75f4b85fad8bc224c87e07103a76c708c0",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-gd32v-windows_x86-9.2.0.tar.gz",
+      "version": "9.2.0"
+    }
+  ],
+  "toolchain-icestorm": [
+    {
+      "sha1": "344ac123f152543fa01038ede6c0fb2cb7d341e5",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-darwin_x86_64-1.7.0.tar.gz",
+      "version": "1.7.0"
+    },
+    {
+      "sha1": "d362c12e15d65a8a347e53556b600bb1aa6dc00e",
+      "system": [
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-windows_amd64-1.10.1.tar.gz",
+      "version": "1.10.1"
+    },
+    {
+      "sha1": "adc65cf86cb941e4cd739b96e23b8da21244eb13",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-windows-1.7.0.tar.gz",
+      "version": "1.7.0"
+    },
+    {
+      "sha1": "3b229e48e9c7946b6fa480f89e15c5ce21625cfd",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-linux_x86_64-1.7.0.tar.gz",
+      "version": "1.7.0"
+    },
+    {
+      "sha1": "e873e4f3defb4fd642e5be02f07049ba2a2d88e1",
+      "system": [
+        "darwin",
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-darwin-1.10.2.tar.gz",
+      "version": "1.10.2"
+    },
+    {
+      "sha1": "a4fd5cae4b2a2a13251be18b256f53e61458e750",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-linux_i686-1.7.0.tar.gz",
+      "version": "1.7.0"
+    },
+    {
+      "sha1": "30ea1c373cea4d1aab7fbb03a488970cb8a572d8",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-linux_i686-1.10.1.tar.gz",
+      "version": "1.10.1"
+    },
+    {
+      "sha1": "84434d526ad8a726396adb90f3155ca3de931589",
+      "system": [
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-linux_armv7l-1.7.0.tar.gz",
+      "version": "1.7.0"
+    },
+    {
+      "sha1": "e0fcb1e9b99c27f0fa4c5f014b0e8447614f8fb2",
+      "system": [
+        "linux_armv7l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-linux_armv7l-1.10.1.tar.gz",
+      "version": "1.10.1"
+    },
+    {
+      "sha1": "e17e59294b2263337bb69d2be3917bb25dc0cd2f",
+      "system": [
+        "windows",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-windows-1.10.1.tar.gz",
+      "version": "1.10.1"
+    },
+    {
+      "sha1": "fbc9289916401ca7aa8af15926444fa5c2d8169c",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-linux_x86_64-1.10.1.tar.gz",
+      "version": "1.10.1"
+    },
+    {
+      "sha1": "d335601941d515735635b3a773f45c44fb9a1ed4",
+      "system": [
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-icestorm-linux_aarch64-1.10.1.tar.gz",
+      "version": "1.10.1"
+    }
+  ],
+  "toolchain-intelarc32": [
+    {
+      "sha1": "68b6149c5dd72028a496a5db418b6ea613485212",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-intelarc32-linux_x86_64-1.40805.0.tar.gz",
+      "version": "1.40805.0"
+    },
+    {
+      "sha1": "12551aa7dab77f9288d66dcca6cd5b157cd095ce",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-intelarc32-darwin_x86_64-1.40805.0.tar.gz",
+      "version": "1.40805.0"
+    },
+    {
+      "sha1": "d8f6f5cbb2fdb932594553c47085a92cb5ce16aa",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-intelarc32-linux_i686-1.40805.0.tar.gz",
+      "version": "1.40805.0"
+    },
+    {
+      "sha1": "6dd8f59264e8e533672739be16500f8715b16be3",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-intelarc32-windows-1.40805.0.tar.gz",
+      "version": "1.40805.0"
+    }
+  ],
+  "toolchain-iverilog": [
+    {
+      "sha1": "e533da9b1f32a160dcbaf92fab09338d72a74a85",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-iverilog-linux_i686-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "73a4f223419b18c40af787162bdc070eb59d9927",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-iverilog-linux_x86_64-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "a6fc5dfdf5e3402121a1fb90da034b46b984da8f",
+      "system": [
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-iverilog-windows_amd64-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "385bf611f0b91f90a96f41e7d1540880732aa2d8",
+      "system": [
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-iverilog-linux_aarch64-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "f2b1f50c12ca2cf0471c30138873ff67f9f0f124",
+      "system": [
+        "windows",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-iverilog-windows-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "f5f320c9967a2751b747bfe4b5a576043432e2f6",
+      "system": [
+        "darwin",
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-iverilog-darwin-1.1.0.tar.gz",
+      "version": "1.1.0"
+    },
+    {
+      "sha1": "ee4f6306273c16fc1b76a693ed44ee964cd06ebf",
+      "system": [
+        "linux_armv7l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-iverilog-linux_armv7l-1.1.0.tar.gz",
+      "version": "1.1.0"
+    }
+  ],
+  "toolchain-kendryte210": [
+    {
+      "sha1": "9d2d64ef9e2f1da4d7e5ecd54bf7ec3ebf1a1e59",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/toolchain-kendryte210-windows_amd64-8.2.0.tar.gz",
+      "version": "8.2.0"
+    },
+    {
+      "sha1": "3bff723d12759e9c696498b75ed123cf4bf485c5",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-kendryte210-linux_x86_64-8.2.0.tar.gz",
+      "version": "8.2.0"
+    },
+    {
+      "sha1": "bce8c191903e5d88594fb57ba6df45d157c8f6ca",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/toolchain-kendryte210-windows_x86-8.2.0.tar.gz",
+      "version": "8.2.0"
+    },
+    {
+      "sha1": "e089f1b8ea7ce3d69c46bd78c1b3eb0b89450df0",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-kendryte210-darwin_x86_64-8.2.0.tar.gz",
+      "version": "8.2.0"
+    }
+  ],
+  "toolchain-microchippic32": [
+    {
+      "sha1": "66f853a90f1869ec39103a6f79157dd01f5203f4",
+      "system": [
+        "linux_i686",
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-microchippic32-linux_i686-1.40803.143.tar.gz",
+      "version": "1.40803.143"
+    },
+    {
+      "sha1": "ee4ea863d7df167bf97c0246bf197e4f4dcd6e57",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-microchippic32-windows-1.40803.143.tar.gz",
+      "version": "1.40803.143"
+    },
+    {
+      "sha1": "5315a8c16a4b7659e20b344b1b72b72d0761f042",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-microchippic32-darwin_x86_64-1.40803.143.tar.gz",
+      "version": "1.40803.143"
+    },
+    {
+      "sha1": "988f8bfbb7d184a7442972a5d5dc04f2612e6bf8",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-microchippic32-linux_armv6l-1.40803.143.tar.gz",
+      "version": "1.40803.143"
+    }
+  ],
+  "toolchain-riscv": [
+    {
+      "sha1": "7f66111930530334888d496749cc83380fc6b2ea",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-darwin_x86_64-1.70200.0.tar.gz",
+      "version": "1.70200.0"
+    },
+    {
+      "sha1": "450be7c2a1e7ce886a3dacc9b1d46c22b568c92f",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-darwin_x86_64-1.80300.190927.tar.gz",
+      "version": "1.80300.190927"
+    },
+    {
+      "sha1": "aac98dad63ed119447b4e9a651b333815bb1ee60",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-darwin_x86_64-1.80200.190503.tar.gz",
+      "version": "1.80200.190503"
+    },
+    {
+      "sha1": "0c62fecad7c9e712a8c9cacb92f40919dd93325a",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-linux_x86_64-1.80300.190927.tar.gz",
+      "version": "1.80300.190927"
+    },
+    {
+      "sha1": "b983f564ba4223cf846324b643e73590dc7c3a27",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-linux_x86_64-1.80200.190503.tar.gz",
+      "version": "1.80200.190503"
+    },
+    {
+      "sha1": "5e92b5259838663c28f2cc3b691d90bbcb0cf38e",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-windows-1.70200.0.tar.gz",
+      "version": "1.70200.0"
+    },
+    {
+      "sha1": "90eeab238eedd33eab9fd7fda9e7eb8cff99ada3",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-windows_x86-1.80300.190927.tar.gz",
+      "version": "1.80300.190927"
+    },
+    {
+      "sha1": "6358686da2c82ae504ba9f26321a8348235523bc",
+      "system": [
+        "windows_x86",
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-windows_x86-1.80200.190503.tar.gz",
+      "version": "1.80200.190503"
+    },
+    {
+      "sha1": "fb488a1b9f953a487af67efd3572c07ab90702bb",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-linux_x86_64-1.70200.0.tar.gz",
+      "version": "1.70200.0"
+    }
+  ],
+  "toolchain-riscv-pulp": [
+    {
+      "sha1": "85840394700b27ee02d98f94e261a0d65fca210c",
+      "system": "darwin_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-pulp-darwin_x86_64-1.70101.181014.tar.gz",
+      "version": "1.70101.181014"
+    },
+    {
+      "sha1": "2a1de63b9eda2021d2271e9c86b637b1a5a71738",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-pulp-windows_x86-1.70101.180627.tar.gz",
+      "version": "1.70101.180627"
+    },
+    {
+      "sha1": "19dd742d1796837267c90b82d1cf13f13b09c95b",
+      "system": "linux_x86_64",
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-pulp-linux_x86_64-1.70101.181017.tar.gz",
+      "version": "1.70101.181017"
+    },
+    {
+      "sha1": "121e231d8a64644296ecc97493c6f374887d7249",
+      "system": "windows_amd64",
+      "url": "http://dl.platformio.org/packages/toolchain-riscv-pulp-windows_amd64-1.70101.181014.tar.gz",
+      "version": "1.70101.181014"
+    }
+  ],
+  "toolchain-sdcc": [
+    {
+      "sha1": "ad227143247fed591d5053fbd10be822d03b1405",
+      "system": [
+        "windows",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-windows-1.30603.9771.tar.gz",
+      "version": "1.30603.9771"
+    },
+    {
+      "sha1": "9f834759026b123b1a44e9ca87e469b626664828",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-linux_x86_64-1.30804.10766.tar.gz",
+      "version": "1.30804.10766"
+    },
+    {
+      "sha1": "dbfc8c0b109fd970a087f80eebbd4c393ff452ce",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-linux_i686-1.30603.9771.tar.gz",
+      "version": "1.30603.9771"
+    },
+    {
+      "sha1": "040ec62e5bd3630613a4e5bb812e7d381e9d985f",
+      "system": "linux_aarch64",
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-linux_aarch64-1.30804.10766.tar.gz",
+      "version": "1.30804.10766"
+    },
+    {
+      "sha1": "74f021d3e1e5d8f64bcff955cf9f0db94307c3a3",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-linux_i686-1.30804.10766.tar.gz",
+      "version": "1.30804.10766"
+    },
+    {
+      "sha1": "687461fbc4608479ec3ab50c4063fde15b03dd6d",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-darwin_x86_64-1.30603.9771.tar.gz",
+      "version": "1.30603.9771"
+    },
+    {
+      "sha1": "be3ee5754b79831772cd632b3cf75e51847dddee",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-linux_armv6l-1.30804.10766.tar.gz",
+      "version": "1.30804.10766"
+    },
+    {
+      "sha1": "80f066f4aba56dc174c0fd1ac75b2002e3024767",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-darwin_x86_64-1.30804.10766.tar.gz",
+      "version": "1.30804.10766"
+    },
+    {
+      "sha1": "6bb01a476cc82f9e18a1d7b2434cce6287f289b8",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-linux_x86_64-1.30603.9771.tar.gz",
+      "version": "1.30603.9771"
+    },
+    {
+      "sha1": "5d02c4e0da37b54f90ee6457145dde3d134883e2",
+      "system": [
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-windows_amd64-1.30603.9771.tar.gz",
+      "version": "1.30603.9771"
+    },
+    {
+      "sha1": "878ead3a3c0841d0e06f17453d121ae9188a7b4e",
+      "system": [
+        "windows",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-windows-1.30804.10766.tar.gz",
+      "version": "1.30804.10766"
+    },
+    {
+      "sha1": "b5aeeaa8a690a2a9d570099697e358ea5a02142c",
+      "system": [
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-sdcc-windows_amd64-1.30804.10766.tar.gz",
+      "version": "1.30804.10766"
+    }
+  ],
+  "toolchain-timsp430": [
+    {
+      "sha1": "04cd3e095b4a7e7ff1c3c562a6e5c81565b20cc6",
+      "system": [
+        "darwin_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-timsp430-darwin_x86_64-1.40603.190926.tar.gz",
+      "version": "1.40603.190926"
+    },
+    {
+      "sha1": "4eeb8077496bb188f0ebdb86764f2ae140b3b48e",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-timsp430-linux_i686-1.40603.0.tar.gz",
+      "version": "1.40603.0"
+    },
+    {
+      "sha1": "2439a0eb3dbf94ff69fdf5184e8bdeffaf687cd4",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-timsp430-linux_x86_64-1.40603.190926.tar.gz",
+      "version": "1.40603.190926"
+    },
+    {
+      "sha1": "47cf957692a13e6311a12cfb04b323e43d4b68dc",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-timsp430-windows-1.40603.190926.tar.gz",
+      "version": "1.40603.190926"
+    }
+  ],
+  "toolchain-xtensa": [
+    {
+      "sha1": "a673ffc6c2f5e7ebd9b92ea4048a101e300fa8ad",
+      "system": [
+        "freebsd_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-freebsd_amd64-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "3d6402891ccdd1c76753ca2434c585bfa9777d7d",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-linux_i686-2.40802.191122.tar.gz",
+      "version": "2.40802.191122"
+    },
+    {
+      "sha1": "ec19d3455b8e957b0fcb06f5b6f8c2f5819b0175",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-linux_armv6l-1.40802.2.tar.gz",
+      "version": "1.40802.2"
+    },
+    {
+      "sha1": "c6452735902ef2443468ede3d00875c12564ace3",
+      "system": [
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-linux_aarch64-2.40802.191122.tar.gz",
+      "version": "2.40802.191122"
+    },
+    {
+      "sha1": "1b3ccafca1713c51aa295911ec7376cca2695760",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-darwin_x86_64-2.40802.191122.tar.gz",
+      "version": "2.40802.191122"
+    },
+    {
+      "sha1": "0d4fa72f91faac74c59013fc841c2bf84f1d9a63",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-linux_x86_64-2.40802.191122.tar.gz",
+      "version": "2.40802.191122"
+    },
+    {
+      "sha1": "b4de95fab5c8810c181fd56d4e56ce999f1740f7",
+      "system": [
+        "windows_amd64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-windows_amd64-2.40802.191122.tar.gz",
+      "version": "2.40802.191122"
+    },
+    {
+      "sha1": "bee3eeff0eb26d7058de3378b428389b53554dd8",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-darwin_x86_64-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "eb7e0ecf5f4062834104770762c61ea9ee2d5269",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l",
+        "linux_armv8l"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-linux_armv6l-2.40802.191122.tar.gz",
+      "version": "2.40802.191122"
+    },
+    {
+      "sha1": "80aee4c43fcf0aed234fd89f032c01f160544d24",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-linux_x86_64-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "eb532b34872136401273c6f375935554502608db",
+      "system": "windows_x86",
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-windows_x86-2.40802.191122.tar.gz",
+      "version": "2.40802.191122"
+    },
+    {
+      "sha1": "221c4bab9ddda1303c916ee44b0a5b600785274b",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-linux_i686-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "b4da377156285005c5f1eb3bdce9cc52639fce15",
+      "system": "linux_i686",
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-linux_i686-2.40802.190218.tar.gz",
+      "version": "2.40802.190218"
+    },
+    {
+      "sha1": "f5fa002b0689d7cc9e1770b946ec682638ca1127",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa-windows-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    }
+  ],
+  "toolchain-xtensa32": [
+    {
+      "sha1": "94716a9ea9d1762be3f09c41a47cc97db7fb783b",
+      "system": [
+        "linux_armv7l",
+        "linux_armv8l",
+        "linux_aarch64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-linux_armv7l-2.50200.80.tar.gz",
+      "version": "2.50200.80"
+    },
+    {
+      "sha1": "dc2824a336441b16e9e1dcddd1026d122d8d39a6",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-windows-2.50200.80.tar.gz",
+      "version": "2.50200.80"
+    },
+    {
+      "sha1": "dc1067ed48bcc37a9adf31d11cbd22d3a56093e8",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-darwin_x86_64-1.50200.2.tar.gz",
+      "version": "1.50200.2"
+    },
+    {
+      "sha1": "031302929f62e10c199cf675dc02d19e62d69349",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-linux_i686-1.50200.2.tar.gz",
+      "version": "1.50200.2"
+    },
+    {
+      "sha1": "3566142b3f58eca3c335dc62d7aee937120bb2b6",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-linux_i686-2.50200.80.tar.gz",
+      "version": "2.50200.80"
+    },
+    {
+      "sha1": "f2c561ea47bfcec65f46227a9e06152df9728c8d",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-linux_x86_64-1.50200.2.tar.gz",
+      "version": "1.50200.2"
+    },
+    {
+      "sha1": "823639e22441ec697671e5c711c56a9fe115f722",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-darwin_x86_64-2.50200.80.tar.gz",
+      "version": "2.50200.80"
+    },
+    {
+      "sha1": "9e394b2b152fbce509fd026500bae3bbfd1f00c2",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-linux_x86_64-2.50200.80.tar.gz",
+      "version": "2.50200.80"
+    },
+    {
+      "sha1": "ab302941fd855245d0ff36169fd0f2919040704b",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/toolchain-xtensa32-windows-1.50200.2.tar.gz",
+      "version": "1.50200.2"
+    }
+  ]
+}
