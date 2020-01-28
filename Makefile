@@ -1,7 +1,7 @@
 build: headers
 	nix-shell shell.nix --run 'pio run'
 
-ci:
+ci: headers
 	nix-build --option sandbox false ci.nix
 
 .pio/libdeps/keyboardio/KaleidoscopeScanner/KeyboardioScanner.h: platformio.ini
