@@ -6,4 +6,4 @@ sources:
 tasks:
   - build: |
       cd model01
-      make ci
+      nix-shell -p gnumake --run 'make ci'

@@ -7,4 +7,4 @@ branches:
     - trying
     # Build pull requests.
     - master
-script: make ci
+script: nix-shell -p gnumake --run 'make ci'
