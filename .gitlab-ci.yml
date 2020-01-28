@@ -13,4 +13,4 @@ build:
     paths:
       - result/firmwarm.hex
   script:
-    - make ci
+    - nix-shell -p gnumake --run 'make ci'
