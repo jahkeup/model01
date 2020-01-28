@@ -7,4 +7,4 @@ branches:
     - trying
     # Build pull requests.
     - master
-script: nix-build --option sandbox false ./ci.nix
+script: make ci

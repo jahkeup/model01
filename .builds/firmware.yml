@@ -6,6 +6,4 @@ sources:
 tasks:
   - build: |
       cd model01
-      # Allow network access with PIO, yes, this is impure. See TODO
-      # in platformio.ini.
-      nix-build --option sandbox false ./ci.nix
+      make ci

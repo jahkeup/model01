@@ -5,10 +5,13 @@ stdenv.mkDerivation {
   # platformio.ini.
   src = ./.;
   buildInputs = [ platformio ];
+
   buildPhase = ''
-  pio run
+    pio lib install
+    pio run
   '';
+
   installPhase = ''
-  install -D .pioenvs/default/firmware.hex $out/firmware.hex
+    install -D .pio/build/keyboardio/firmware.hex $out/firmware.hex
   '';
 }

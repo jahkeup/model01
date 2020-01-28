@@ -1,0 +1,16 @@
+build:
+  stage: build
+  tags:
+    - nix
+  cache:
+    paths:
+      - .pio/
+  artifacts:
+    name: model01-firmware-${CI_COMMIT_SHORT_SHA}.hex
+    expose_as: Compiled Firmware
+    when: on_success
+    expire_in: 4 weeks
+    paths:
+      - result/firmwarm.hex
+  script:
+    - make ci

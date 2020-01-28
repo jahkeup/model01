@@ -59,8 +59,6 @@ let
     buildInputs = [ drv platformio ];
   };
 
-
-
   drv = stdenv.mkDerivation {
     name = "model01";
     src = ./..;
