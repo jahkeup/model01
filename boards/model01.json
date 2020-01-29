@@ -12,7 +12,7 @@
     "usb_product": "Model 01",
     "usb_manufacturer": "Keyboardio",
     "variant": "model01",
-    "extra_flags": "-I./.piolibdeps/KaleidoscopeScanner -I ./lib/KeyboardIOPins/src '-DKALEIDOSCOPE_HARDWARE_H=\"Kaleidoscope-Hardware-Model01.h\"' -DARDUINO_AVR_MODEL01 -ftrack-macro-expansion=0 -fno-diagnostics-show-caret"
+    "extra_flags": "-I./lib/KeyboardioPins '-DKALEIDOSCOPE_HARDWARE_H=\"Kaleidoscope-Hardware-Model01.h\"' -DARDUINO_AVR_MODEL01 -ftrack-macro-expansion=0 -fno-diagnostics-show-caret"
   },
   "frameworks": ["arduino"],
   "name": "model01",

@@ -7,16 +7,16 @@
       "version": "3.0.1"
     },
     {
-      "sha1": "97e862309981a1a380e94bce4a27a4eb3808d907",
-      "system": "*",
-      "url": "http://dl.platformio.org/packages/contrib-piohome-3.1.0-rc.1.tar.gz",
-      "version": "3.1.0-rc.1"
-    },
-    {
       "sha1": "17c2a8e8c9c426660f85d5132ac31da752518f49",
       "system": "*",
       "url": "http://dl.platformio.org/packages/contrib-piohome-2.3.3.tar.gz",
       "version": "2.3.3"
+    },
+    {
+      "sha1": "1ad5dc6b06c2e756c42184a06533a99d58ce6a5c",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/contrib-piohome-3.1.0-rc.2.tar.gz",
+      "version": "3.1.0-rc.2"
     }
   ],
   "contrib-pysite": [
@@ -963,6 +963,12 @@
       "version": "1.148.0"
     },
     {
+      "sha1": "8eee7c6d4e7ef0f22b3d3d4dada7b1703362f279",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.149.0.tar.gz",
+      "version": "1.149.0"
+    },
+    {
       "sha1": "baa3e3c8e7e411b8f5f7918d11fecce08a7c531b",
       "system": "*",
       "url": "http://dl.platformio.org/packages/framework-arduinoteensy-1.135.0.tar.gz",
@@ -1448,6 +1454,12 @@
       "system": "*",
       "url": "http://dl.platformio.org/packages/framework-zephyr-1.20100.200106.tar.gz",
       "version": "1.20100.200106"
+    },
+    {
+      "sha1": "e7521cbbd1611460b2344855ab89d6e8b9699870",
+      "system": "*",
+      "url": "http://dl.platformio.org/packages/framework-zephyr-2.20100.200124.tar.gz",
+      "version": "2.20100.200124"
     }
   ],
   "framework-zephyr-civetweb": [
@@ -3839,14 +3851,6 @@
       "version": "1.21.0"
     },
     {
-      "sha1": "6f23723a195b7dca2ce91e6562a55a915147f675",
-      "system": [
-        "linux_i686"
-      ],
-      "url": "http://dl.platformio.org/packages/tool-teensy-linux_i686-1.148.191118.tar.gz",
-      "version": "1.148.191118"
-    },
-    {
       "sha1": "cc0502870ade17f90a2f60d605f89a422d86a3a2",
       "system": [
         "linux_armv6l",
@@ -3856,24 +3860,6 @@
       ],
       "url": "http://dl.platformio.org/packages/tool-teensy-linux_armv6l-1.21.1.tar.gz",
       "version": "1.21.1"
-    },
-    {
-      "sha1": "fc3df77cfdcda9482c2e7412e0961d035c98e5a2",
-      "system": [
-        "linux_x86_64"
-      ],
-      "url": "http://dl.platformio.org/packages/tool-teensy-linux_x86_64-1.148.191118.tar.gz",
-      "version": "1.148.191118"
-    },
-    {
-      "sha1": "b945edbd91c668f94555e62d5085031b66d3a3f6",
-      "system": [
-        "windows",
-        "windows_amd64",
-        "windows_x86"
-      ],
-      "url": "http://dl.platformio.org/packages/tool-teensy-windows-1.148.191118.tar.gz",
-      "version": "1.148.191118"
     },
     {
       "sha1": "5ca2ba577f4587ab362e1d0c167e5b3c8a1eba7b",
@@ -3886,6 +3872,24 @@
       "system": "linux_x86_64",
       "url": "http://dl.platformio.org/packages/tool-teensy-linux_x86_64-1.3.0.tar.gz",
       "version": "1.3.0"
+    },
+    {
+      "sha1": "eb8059897e622a79fb9dd899c4550e6e989b5941",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_x86_64-1.149.200123.tar.gz",
+      "version": "1.149.200123"
+    },
+    {
+      "sha1": "f23eb876cd1f7485c2375532ada5afe98a0841fd",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-windows-1.149.200123.tar.gz",
+      "version": "1.149.200123"
     },
     {
       "sha1": "29e7773925bae4e542da71a379346e0f2f740c1e",
@@ -3925,6 +3929,14 @@
       "version": "1.3.0"
     },
     {
+      "sha1": "140de52b5f7094fed091d90919610fea6cecb165",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "http://dl.platformio.org/packages/tool-teensy-linux_i686-1.149.200121.tar.gz",
+      "version": "1.149.200121"
+    },
+    {
       "sha1": "4aa6be9960e327470edb0c1658e5a5298ecdb052",
       "system": [
         "linux_x86_64"
@@ -3933,10 +3945,10 @@
       "version": "1.21.0"
     },
     {
-      "sha1": "b5aafe0e50cb33a1f2411836e093a87c95234cda",
+      "sha1": "94039f53bd4254d92a5000dbd3f6600936b6550e",
       "system": "darwin_x86_64",
-      "url": "http://dl.platformio.org/packages/tool-teensy-darwin_x86_64-1.148.0.tar.gz",
-      "version": "1.148.0"
+      "url": "http://dl.platformio.org/packages/tool-teensy-darwin_x86_64-1.149.200123.tar.gz",
+      "version": "1.149.200123"
     }
   ],
   "tool-unity": [
