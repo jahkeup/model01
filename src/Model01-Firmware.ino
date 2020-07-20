@@ -19,52 +19,24 @@
 #define BUILD_INFORMATION "unknown"
 #endif
 
-// The Kaleidoscope core
-#include "Kaleidoscope.h"
-
-// Support for storing the keymap in EEPROM
-#include "Kaleidoscope-EEPROM-Keymap.h"
-#include "Kaleidoscope-EEPROM-Settings.h"
-
-// Support for communicating with the host via a simple Serial protocol
-#include "Kaleidoscope-FocusSerial.h"
-
-// Support for keys that move the mouse
-#include "Kaleidoscope-MouseKeys.h"
-
-// Support for macros
-#include "Kaleidoscope-Macros.h"
-
-// Support for controlling the keyboard's LEDs
-#include "Kaleidoscope-LEDControl.h"
-
-// Change the colors based on the modifier pressed.
-#include "Kaleidoscope-LED-ActiveModColor.h"
-
-// Support for the "Boot greeting" effect, which pulses the 'LED' button for 10s
-// when the keyboard is connected to a computer (or that computer is powered on)
-#include "Kaleidoscope-LEDEffect-BootGreeting.h"
-
-// Support for an LED mode that makes all the LEDs 'breathe'
-#include "Kaleidoscope-LEDEffect-Breathe.h"
-
-// Support for an LED mode that makes a red pixel chase a blue pixel across the
-// keyboard
-#include "Kaleidoscope-LEDEffect-Chase.h"
-
-// Support for LED modes that pulse the keyboard's LED in a rainbow pattern
-#include "Kaleidoscope-LEDEffect-Rainbow.h"
-
-// Support for host power management (suspend & wakeup)
-#include "Kaleidoscope-HostPowerManagement.h"
-
-// Support for magic combos (key chords that trigger an action)
-#include "Kaleidoscope-MagicCombo.h"
-
-// Support for USB quirks, like changing the key state report protocol
-#include "Kaleidoscope-USB-Quirks.h"
+#include "Kaleidoscope.h"                        // Kaleidoscope core
+#include "Kaleidoscope-EEPROM-Keymap.h"          // EEPROM-backed runtime keymap
+#include "Kaleidoscope-EEPROM-Settings.h"        // EEPROM support
+#include "Kaleidoscope-FocusSerial.h"            // Serial communication
+#include "Kaleidoscope-HostPowerManagement.h"    // Power state event hook
+#include "Kaleidoscope-LED-ActiveModColor.h"     // Color modifier presses
+#include "Kaleidoscope-LEDControl.h"             // LED support
+#include "Kaleidoscope-Macros.h"                 // Macro keys
+#include "Kaleidoscope-MagicCombo.h"             // Key chording
+#include "Kaleidoscope-MouseKeys.h"              // Mouse movements
+#include "Kaleidoscope-USB-Quirks.h"             // USB HID protocol switching
+#include "Kaleidoscope-LEDEffect-BootGreeting.h" // LED key boot animation
+#include "Kaleidoscope-LEDEffect-Breathe.h"      // Whole-board breathing effect
+#include "Kaleidoscope-LEDEffect-Chase.h"        // Cross-board light chase effect
+#include "Kaleidoscope-LEDEffect-Rainbow.h"      // Whole-board rainbow effect
 
 /** This 'enum' is a list of all the macros used by the Model 01's firmware
+ *
  * The names aren't particularly important. What is important is that each
  * is unique.
  *

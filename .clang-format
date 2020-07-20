@@ -5,15 +5,31 @@ IndentWidth: 4
 ColumnLimit: 120
 ---
 Language: Cpp
+AlignTrailingComments: true
 AllowShortIfStatementsOnASingleLine: Never
 AlwaysBreakBeforeMultilineStrings: true
 BreakBeforeBinaryOperators: true
-SortIncludes: true
-IncludeBlocks: Regroup
 FixNamespaceComments: true
-ReflowComments: true
-AlignTrailingComments: true
+IncludeBlocks: Regroup
+IndentWrappedFunctionNames: true
 PointerAlignment: Left
+ReflowComments: true
+SortIncludes: true
+SortUsingDeclarations: true
+
+IncludeCategories:
+  - Regex: '<[[:alnum:].]+>'
+    Priority: 10
+  - Regex: '^"Kaleidoscope.h"'
+    Priority: 20
+    SortPriority: 1
+  - Regex: '^"Kaleidoscope-LEDEffect.*"'
+    Priority: 20
+    SortPriority: 21
+  - Regex: '^"Kaleidoscope-.*"'
+    Priority: 20
+  - Regex: '.*'
+    Priority: 25
 
 # Local Variables:
 # mode: yaml
