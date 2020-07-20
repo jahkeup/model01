@@ -2,16 +2,17 @@
 // Copyright 2016 Keyboardio, inc. <jesse@keyboard.io>
 // See "LICENSE" for license details
 
+#define BUILD_INFORMATION                                               \
+  "commit-id:$SOURCE_CONTROL_REVISION\n"                                \
+  "commit-date:$SOURCE_CONTROL_DATE\n"                                  \
+  "commit-user:$SOURCE_CONTROL_USER\n"                                  \
+  "commit-sub:$SOURCE_CONTROL_SAFE_SUBJECT\n"                             \
+  "build-date:$BUILD_METADATA_DATE)\n"                                  \
+  "build-user:$BUILD_METADATA_USER\n"
+
 #ifndef BUILD_INFORMATION
-#define BUILD_INFORMATION "locally built"
+#define BUILD_INFORMATION "unknown"
 #endif
-
-
-/**
- * These #include directives pull in the Kaleidoscope firmware core,
- * as well as the Kaleidoscope plugins we use in the Model 01's firmware
- */
-
 
 // The Kaleidoscope core
 #include "Kaleidoscope.h"
