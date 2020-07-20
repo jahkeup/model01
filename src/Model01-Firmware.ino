@@ -3,12 +3,12 @@
 // See "LICENSE" for license details
 
 #define BUILD_INFORMATION                       \
-  "commit-id:$SOURCE_CONTROL_REVISION\n"        \
-  "commit-date:$SOURCE_CONTROL_DATE\n"          \
-  "commit-user:$SOURCE_CONTROL_USER\n"          \
-  "commit-sub:$SOURCE_CONTROL_SAFE_SUBJECT\n"   \
-  "build-date:$BUILD_METADATA_DATE)\n"          \
-  "build-user:$BUILD_METADATA_USER\n"
+  "commit-id:" SOURCE_CONTROL_REVISION "\n"        \
+  "commit-date:" SOURCE_CONTROL_DATE "\n"          \
+  "commit-user:" SOURCE_CONTROL_AUTHOR "\n"          \
+  "commit-sub:" SOURCE_CONTROL_SAFE_SUBJECT "\n"   \
+  "build-date:" BUILD_METADATA_DATE "\n"           \
+  "build-user:" BUILD_METADATA_USER "\n"
 
 #ifndef BUILD_INFORMATION
 #define BUILD_INFORMATION "unknown"
@@ -195,7 +195,8 @@ KEYMAPS(
 
 static void versionInfoMacro(uint8_t keyState) {
   if (keyToggledOn(keyState)) {
-    Macros.type(PSTR("Keyboardio Model 01 - Kaleidoscope "));
+    Macros.type(PSTR("Keyboardio Model 01 - Kaleidoscope\n"));
+    Macros.type(PSTR("kaleidoscope-commit: " KALEIDOSCOPE_COMMIT "\n"));
     Macros.type(PSTR(BUILD_INFORMATION));
   }
 }
