@@ -212,12 +212,13 @@ static void anyKeyMacro(uint8_t keyState) {
   static Key lastKey;
   bool toggledOn = false;
   if (keyToggledOn(keyState)) {
-    lastKey.keyCode = Key_A.keyCode + (uint8_t)(millis() % 36);
+    lastKey.setKeyCode(Key_A.getKeyCode() + (uint8_t)(millis() % 36));
     toggledOn = true;
   }
 
-  if (keyIsPressed(keyState))
-    kaleidoscope::hid::pressKey(lastKey, toggledOn);
+  if (keyIsPressed(keyState)) {
+    Kaleidoscope.hid().keyboard().pressKey(lastKey, toggledOn);
+  }
 }
 
 
@@ -254,15 +255,13 @@ const macro_t *macroAction(uint8_t macroIndex, uint8_t keyState) {
 void toggleLedsOnSuspendResume(kaleidoscope::plugin::HostPowerManagement::Event event) {
   switch (event) {
   case kaleidoscope::plugin::HostPowerManagement::Suspend:
-    LEDControl.paused = true;
-    LEDControl.set_all_leds_to({0, 0, 0});
-    LEDControl.syncLeds();
+    LEDControl.disable();
     break;
   case kaleidoscope::plugin::HostPowerManagement::Resume:
-    LEDControl.paused = false;
-    LEDControl.refreshAll();
+    LEDControl.enable();
     break;
   case kaleidoscope::plugin::HostPowerManagement::Sleep:
+    // host-is-still-asleep tick event
     break;
   }
 }
@@ -410,7 +409,7 @@ void setup() {
   // additional layers in EEPROM. For now, we reserve space for five layers. If
   // one wants to use these layers, just set the default layer to one in EEPROM,
   // by using the `settings.defaultLayer` Focus command.
-  EEPROMKeymap.setup(5, EEPROMKeymap.Mode::EXTEND);
+  EEPROMKeymap.setup(5);
 }
 
 /** loop is the second of the standard Arduino sketch functions.
