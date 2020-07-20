@@ -3,6 +3,6 @@ pkgs.mkShell {
   name = "model01-dev";
   buildInputs = with pkgs; [
     platformio gnumake
-    ccls astyle cpplint
+    ccls clang-tools
   ];
 }

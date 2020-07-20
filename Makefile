@@ -8,7 +8,7 @@ build: .pio/build/$(PIO_ENV)/firmware.hex
 
 firmware: build-out/firmware.hex
 
-check: cpplint
+check: lint
 
 release: build check
 
@@ -18,10 +18,15 @@ upload:
 
 ci: release build-out/firmware.hex
 
-cpplint:
-	cpplint --extensions=ino,cpp,c,h,hpp $(wildcard src/*.*)
+format fmt:
+	find src -type f -print0 | xargs -0 -t -- \
+		clang-format -Werror -i
 
-.pio/build/$(PIO_ENV)/firmware.hex: $(wildcard src/*) $(wildcard include/) platformio.ini
+lint:
+	find src -type f -print0 | xargs -0 -t -- \
+		clang-format -Werror --dry-run -ferror-limit=10
+
+.pio/build/$(PIO_ENV)/firmware.hex: $(wildcard src/*.* src/*/*.*) $(wildcard include/*.*) platformio.ini
 	pio run --environment $(PIO_ENV)
 
 build-out/firmware.hex: build
