@@ -5,3 +5,6 @@
 .piolibdeps/
 /result*
 /.pio
+build-out/
+.ccls*
+.clang_*

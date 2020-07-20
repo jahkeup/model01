@@ -1,5 +1,8 @@
-{ pkgs ? import <nixpkgs> {}}:
+{ pkgs ? import <nixpkgs-unstable> {}}:
 pkgs.mkShell {
-  name = "keyboard-flash";
-  buildInputs = with pkgs; [ platformio ];
+  name = "model01-dev";
+  buildInputs = with pkgs; [
+    platformio gnumake
+    ccls astyle cpplint
+  ];
 }
