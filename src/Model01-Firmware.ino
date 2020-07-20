@@ -264,6 +264,7 @@ const macro_t *macroAction(uint8_t macroIndex, uint8_t keyState) {
     anyKeyMacro(keyState);
     break;
   }
+
   return MACRO_NONE;
 }
 
@@ -372,7 +373,6 @@ KALEIDOSCOPE_INIT_PLUGINS(
   // The breathe effect slowly pulses all of the LEDs on your keyboard
   LEDBreatheEffect,
 
-
   // The macros plugin adds support for macros
   Macros,
 
@@ -409,8 +409,8 @@ void setup() {
 
   // We set the brightness of the rainbow effects to 150 (on a scale of 0-255)
   // This draws more than 500mA, but looks much nicer than a dimmer effect
-  LEDRainbowEffect.brightness(150);
-  LEDRainbowWaveEffect.brightness(150);
+  LEDRainbowEffect.brightness(200);
+  LEDRainbowWaveEffect.brightness(200);
 
   // We want to make sure that the firmware starts with LED effects off
   // This avoids over-taxing devices that don't have a lot of power to share
