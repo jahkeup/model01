@@ -2,6 +2,26 @@
 // Copyright 2016 Keyboardio, inc. <jesse@keyboard.io>
 // See "LICENSE" for license details
 
+#include "Kaleidoscope.h"                        // Kaleidoscope core
+#include "Kaleidoscope-EEPROM-Keymap.h"          // EEPROM-backed runtime keymap
+#include "Kaleidoscope-EEPROM-Settings.h"        // EEPROM support
+#include "Kaleidoscope-FocusSerial.h"            // Serial communication
+#include "Kaleidoscope-HostPowerManagement.h"    // Power state event hook
+#include "Kaleidoscope-LED-ActiveModColor.h"     // Color modifier presses
+#include "Kaleidoscope-LEDControl.h"             // LED support
+#include "Kaleidoscope-LayerFocus.h"             // Layer serial commands
+#include "Kaleidoscope-Macros.h"                 // Macro keys
+#include "Kaleidoscope-MagicCombo.h"             // Key chording and combos
+#include "Kaleidoscope-MouseKeys.h"              // Mouse movements
+#include "Kaleidoscope-USB-Quirks.h"             // USB HID protocol switching
+#include "kaleidoscope/plugin/HostOS-Focus.h"    // HostOS detection (serial comm)
+#include "Kaleidoscope-LEDEffect-BootGreeting.h" // LED key boot animation
+#include "Kaleidoscope-LEDEffect-Breathe.h"      // Whole-board breathing effect
+#include "Kaleidoscope-LEDEffect-Chase.h"        // Cross-board light chase effect
+#include "Kaleidoscope-LEDEffect-Rainbow.h"      // Whole-board rainbow effect
+
+#include "serial/media_keys.hpp"
+
 #define BUILD_INFORMATION                                                                                              \
     "commit-id:" SOURCE_CONTROL_REVISION                                                                               \
     "\n"                                                                                                               \
@@ -14,26 +34,6 @@
     "build-date:" BUILD_METADATA_DATE                                                                                  \
     "\n"                                                                                                               \
     "build-user:" BUILD_METADATA_USER "\n"
-
-#ifndef BUILD_INFORMATION
-#define BUILD_INFORMATION "unknown"
-#endif
-
-#include "Kaleidoscope.h"                        // Kaleidoscope core
-#include "Kaleidoscope-EEPROM-Keymap.h"          // EEPROM-backed runtime keymap
-#include "Kaleidoscope-EEPROM-Settings.h"        // EEPROM support
-#include "Kaleidoscope-FocusSerial.h"            // Serial communication
-#include "Kaleidoscope-HostPowerManagement.h"    // Power state event hook
-#include "Kaleidoscope-LED-ActiveModColor.h"     // Color modifier presses
-#include "Kaleidoscope-LEDControl.h"             // LED support
-#include "Kaleidoscope-Macros.h"                 // Macro keys
-#include "Kaleidoscope-MagicCombo.h"             // Key chording
-#include "Kaleidoscope-MouseKeys.h"              // Mouse movements
-#include "Kaleidoscope-USB-Quirks.h"             // USB HID protocol switching
-#include "Kaleidoscope-LEDEffect-BootGreeting.h" // LED key boot animation
-#include "Kaleidoscope-LEDEffect-Breathe.h"      // Whole-board breathing effect
-#include "Kaleidoscope-LEDEffect-Chase.h"        // Cross-board light chase effect
-#include "Kaleidoscope-LEDEffect-Rainbow.h"      // Whole-board rainbow effect
 
 /** This 'enum' is a list of all the macros used by the Model 01's firmware
  *
@@ -239,7 +239,9 @@ const macro_t* macroAction(uint8_t macroIndex, uint8_t keyState) {
         break;
 
     case MACRO_ANY:
+        FocusMediaKeys.pressed(0);
         anyKeyMacro(keyState);
+
         break;
     }
 
@@ -301,73 +303,38 @@ USE_MAGIC_COMBOS({.action = toggleKeyboardProtocol,
 // The order can be important. For example, LED effects are
 // added in the order they're listed here.
 KALEIDOSCOPE_INIT_PLUGINS(
-    // The EEPROMSettings & EEPROMKeymap plugins make it possible to have an
-    // editable keymap in EEPROM.
-    EEPROMSettings, EEPROMKeymap,
 
-    // Focus allows bi-directional communication with the host, and is the
-    // interface through which the keymap in EEPROM can be edited.
-    Focus,
+    EEPROMSettings, // EEPROM subsystem
+    EEPROMKeymap,   // EEPROM backed keymap storage
 
-    // FocusSettingsCommand adds a few Focus commands, intended to aid in
-    // changing some settings of the keyboard, such as the default layer (via
-    // the `settings.defaultLayer` command)
-    FocusSettingsCommand,
+    Focus,                // Serial subsystem
+    FocusSettingsCommand, // Basic serial commands
+    FocusEEPROMCommand,   // EEPROM manipulation commands
+    FocusHostOSCommand,   // HostOS serial command
+    LayerFocus,           // Layer manipulation serial command
+    FocusMediaKeys,       // Media-key's press events
 
-    // FocusEEPROMCommand adds a set of Focus commands, which are very helpful
-    // in both debugging, and in backing up one's EEPROM contents.
-    FocusEEPROMCommand,
+    LEDControl,           // LED subsystem
+    BootGreetingEffect,   // LED boot animation
+    ActiveModColorEffect, // Color based on the active modifiers.
+    LEDOff,               // LED deactivation at boot
+    LEDRainbowEffect,     // Cross keyboard rainbow color effect
+    LEDRainbowWaveEffect, // Whole keyboard rainbow color effect
+    LEDChaseEffect,       // LEDs chasing LEDs for great fun
+    LEDBreatheEffect,     // Keyboard might be alive - breaths in and out in color
 
-    // The boot greeting effect pulses the LED button for 10 seconds after the
-    // keyboard is first connected
-    BootGreetingEffect,
-
-    // LEDControl provides support for other LED modes
-    LEDControl,
-
-    // Color based on the active modifiers.
-    ActiveModColorEffect,
-
-    // We start with the LED effect that turns off all the LEDs.
-    LEDOff,
-
-    // The rainbow effect changes the color of all of the keyboard's keys at the
-    // same time running through all the colors of the rainbow.
-    LEDRainbowEffect,
-
-    // The rainbow wave effect lights up your keyboard with all the colors of a
-    // rainbow and slowly moves the rainbow across your keyboard
-    LEDRainbowWaveEffect,
-
-    // The chase effect follows the adventure of a blue pixel which chases a red
-    // pixel across your keyboard. Spoiler: the blue pixel never catches the red
-    // pixel
-    LEDChaseEffect,
-
-    // The breathe effect slowly pulses all of the LEDs on your keyboard
-    LEDBreatheEffect,
-
-    // The macros plugin adds support for macros
-    Macros,
-
-    // The MouseKeys plugin lets you add keys to your keymap which move the
-    // mouse.
-    MouseKeys,
-
-    // The HostPowerManagement plugin allows us to turn LEDs off when then host
-    // goes to sleep, and resume them when it wakes up.
-    HostPowerManagement,
-
-    // The MagicCombo plugin lets you use key combinations to trigger custom
-    // actions - a bit like Macros, but triggered by pressing multiple keys at
-    // the same time.
-    MagicCombo,
+    Macros,              // Macro support
+    MouseKeys,           // Mouse, but using keyboard keys.
+    HostPowerManagement, // Host power state event hooks
+    MagicCombo,          // chording and combination key presses
 
     // The USBQuirks plugin lets you do some things with USB that we aren't
     // comfortable - or able - to do automatically, but can be useful
     // nevertheless. Such as toggling the key report protocol between Boot (used
     // by BIOSes) and Report (NKRO).
-    USBQuirks);
+    USBQuirks
+
+);
 
 /** The 'setup' function is one of the two standard Arduino sketch functions.
  * It's called when your keyboard first powers up. This is where you set up
