@@ -12,6 +12,10 @@ check: cpplint
 
 release: build check
 
+upload:
+	@echo "Get ready to press PROG key. Here we go!"
+	pio run --environment $(PIO_ENV) --target upload
+
 ci: release build-out/firmware.hex
 
 cpplint:
