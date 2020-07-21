@@ -23,11 +23,15 @@ IncludeCategories:
   - Regex: '^"Kaleidoscope.h"'
     Priority: 20
     SortPriority: 1
+  - Regex: '^"Kaleidoscope/.*"'
+    Priority: 20
+    SortPriority: 3
   - Regex: '^"Kaleidoscope-LEDEffect.*"'
     Priority: 20
-    SortPriority: 21
+    SortPriority: 4
   - Regex: '^"Kaleidoscope-.*"'
     Priority: 20
+    SortPriority: 3
   - Regex: '.*'
     Priority: 25
 
