@@ -239,9 +239,8 @@ const macro_t* macroAction(uint8_t macroIndex, uint8_t keyState) {
         break;
 
     case MACRO_ANY:
-        FocusMediaKeys.pressed(0);
         anyKeyMacro(keyState);
-
+        FocusMediaKeys.pressed(0);
         break;
     }
 
@@ -308,11 +307,12 @@ KALEIDOSCOPE_INIT_PLUGINS(
     EEPROMKeymap,   // EEPROM backed keymap storage
 
     Focus,                // Serial subsystem
-    FocusSettingsCommand, // Basic serial commands
     FocusEEPROMCommand,   // EEPROM manipulation commands
     FocusHostOSCommand,   // HostOS serial command
-    LayerFocus,           // Layer manipulation serial command
+    FocusLEDCommand,      // LED serial commands
     FocusMediaKeys,       // Media-key's press events
+    FocusSettingsCommand, // Basic serial commands
+    LayerFocus,           // Layer manipulation serial command
 
     LEDControl,           // LED subsystem
     BootGreetingEffect,   // LED boot animation
