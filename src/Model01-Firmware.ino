@@ -19,8 +19,6 @@
 #include "Kaleidoscope-LEDEffect-Chase.h"        // Cross-board light chase effect
 #include "Kaleidoscope-LEDEffect-Rainbow.h"      // Whole-board rainbow effect
 
-#include "serial/media_keys.hpp"
-
 #define BUILD_INFORMATION                                                                                              \
     "commit-id:" SOURCE_CONTROL_REVISION                                                                               \
     "\n"                                                                                                               \
@@ -239,7 +237,6 @@ const macro_t* macroAction(uint8_t macroIndex, uint8_t keyState) {
 
     case MACRO_ANY:
         anyKeyMacro(keyState);
-        FocusMediaKeys.pressed(0);
         break;
     }
 
@@ -309,7 +306,6 @@ KALEIDOSCOPE_INIT_PLUGINS(
     FocusEEPROMCommand,   // EEPROM manipulation commands
     FocusHostOSCommand,   // HostOS serial command
     FocusLEDCommand,      // LED serial commands
-    FocusMediaKeys,       // Media-key's press events
     FocusSettingsCommand, // Basic serial commands
     LayerFocus,           // Layer manipulation serial command
 
