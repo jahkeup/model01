@@ -12,7 +12,6 @@
 #include "Kaleidoscope-LayerFocus.h"             // Layer serial commands
 #include "Kaleidoscope-Macros.h"                 // Macro keys
 #include "Kaleidoscope-MagicCombo.h"             // Key chording and combos
-#include "Kaleidoscope-MouseKeys.h"              // Mouse movements
 #include "Kaleidoscope-USB-Quirks.h"             // USB HID protocol switching
 #include "kaleidoscope/plugin/HostOS-Focus.h"    // HostOS detection (serial comm)
 #include "Kaleidoscope-LEDEffect-BootGreeting.h" // LED key boot animation
@@ -150,9 +149,9 @@ KEYMAPS(
 
   [FUNCTION] =  KEYMAP_STACKED
   (M(MACRO_VERSION_INFO),      Key_F1,           Key_F2,      Key_F3,     Key_F4,        Key_F5,           M(MACRO_TOGGLE_QWERTY_COLEMAK),
-   Key_Tab,  ___,              Key_mouseUp, ___,        Key_mouseBtnR, Key_mouseWarpEnd, Key_mouseWarpNE,
-   Key_Home, Key_mouseL,       Key_mouseDn, Key_mouseR, Key_mouseBtnL, Key_mouseWarpNW,
-   Key_End,  Key_PrintScreen,  Key_Insert,  ___,        Key_mouseBtnM, Key_mouseWarpSW,  Key_mouseWarpSE,
+   Key_Tab,  ___,              ___, ___,        ___, ___, ___,
+   Key_Home, ___,       ___, ___, ___, ___,
+   Key_End,  Key_PrintScreen,  Key_Insert,  ___,        ___, ___,  ___,
    ___, Key_Delete, ___, ___,
    ___,
 
@@ -324,7 +323,6 @@ KALEIDOSCOPE_INIT_PLUGINS(
     LEDBreatheEffect,     // Keyboard might be alive - breaths in and out in color
 
     Macros,              // Macro support
-    MouseKeys,           // Mouse, but using keyboard keys.
     HostPowerManagement, // Host power state event hooks
     MagicCombo,          // chording and combination key presses
 
@@ -363,9 +361,6 @@ void setup() {
     // one wants to use these layers, just set the default layer to one in EEPROM,
     // by using the `settings.defaultLayer` Focus command.
     EEPROMKeymap.setup(5);
-
-    MouseKeys.accelSpeed = 2;
-    MouseKeys.accelDelay = 20;
 }
 
 /** loop is the second of the standard Arduino sketch functions.
