@@ -6,9 +6,9 @@ stdenv.mkDerivation {
   src = ./.;
   buildInputs = [ platformio ];
   buildPhase = ''
-  pio run
+    pio run
   '';
   installPhase = ''
-  install -D .pioenvs/default/firmware.hex $out/firmware.hex
+    install -D .pioenvs/default/firmware.hex $out/firmware.hex
   '';
 }
