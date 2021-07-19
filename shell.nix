@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs-unstable> {}}:
+{ pkgs ? import <nixpkgs> {}}:
 pkgs.mkShell {
   name = "model01-dev";
   buildInputs = with pkgs; [
