@@ -14,7 +14,7 @@ release: build check
 
 upload:
 	@echo "Get ready to press PROG key. Here we go!"
-	pio run --environment $(PIO_ENV) --target upload
+	pio run --environment $(PIO_ENV) --target upload $(UPLOAD_FLAGS)
 
 ci: release build-out/firmware.hex
 
