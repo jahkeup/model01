@@ -9,6 +9,6 @@ stdenv.mkDerivation {
     pio run
   '';
   installPhase = ''
-    install -D .pioenvs/default/firmware.hex $out/firmware.hex
+    install -D .pio/build/model01/firmware.hex $out/firmware.hex
   '';
 }
